@@ -1,0 +1,110 @@
+.main{
+    height: 1300px;
+    width: 1500px;
+    background-color:rgb(167, 85, 221);
+   
+    
+    
+}
+.f{
+    font-weight: 50;
+    position: relative;
+    top: 40px;
+    
+    color: rgb(199, 197, 197);
+    letter-spacing: 2px;
+}
+.f2{
+    position: relative;
+    color: white;
+    top: 20px;
+}
+.up{
+    height: 450px;
+    width: 1100px;
+    
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+.down{
+    height: 450px;
+    width: 1100px;
+    
+    position: relative;
+    left: 200px;
+    top: 40px;
+}
+.a{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+}
+.b{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    border-radius: 20px;
+    background-color: white;
+    float: left;
+}
+.c{
+    height: 450px;
+    width: 300px;
+    position: relative;
+    
+    border-radius: 20px;
+    background-color: white;
+    float: right;
+}
+.im{
+    height: 260px;
+    width: 250px;
+    position: relative;
+    left: 28px;
+}
+.f3{
+    position: relative;
+    bottom: 30px;
+    color:rgb(167, 85, 221) ;
+}
+.f4{
+    position: relative;
+    bottom: 30px;
+    color: black;
+    font-weight: 50;
+}
+.btn{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(167, 85, 221);
+    letter-spacing: 1px;
+    color: white;
+    border-style: hidden;
+    position: relative;
+    bottom: 20px;
+    left: 90px;
+    border-radius: 15px;
+}
+.f5{
+    color: white;
+    font-weight: 20;
+}
+.foot{
+    height: 100px;
+    width: 300px;
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+.f6{
+    position: relative;
+    color: white;
+    bottom: 38px;
+    left: 45px;
+}

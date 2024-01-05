@@ -1,0 +1,59 @@
+.second{
+    height: 600px;
+    width: 1500px;
+    
+    
+    
+}
+.a{
+    height: 300px;
+    width: 450px;
+    border: 1px solid red;
+    border-style:hidden ;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    float: left;
+}
+.f1{
+    font-weight: 600;
+    font-family: Roboto;
+    white-space: nowrap;
+    font-size: 14px;
+    color: rgb(99, 97, 97);
+    
+}
+.f2{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Roboto;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    position: relative;
+    top: 10px;
+}
+.f3{
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(158, 153, 153);
+    white-space: nowrap;
+    word-spacing: 2px;
+    line-height: 20pt;
+    position: relative;
+    top: 25px;
+}
+.li{
+    height: 400px;
+    width: 550px;
+    border: 1px solid red;
+    border-style: hidden;
+    position: relative;
+    left:600px;
+    bottom: 300px;
+    float: left;
+    background-image: url("../images/hand.jpg");
+    background-repeat: no-repeat;
+    background-size: 550px 400px;
+
+
+}

@@ -1,0 +1,33 @@
+.right{
+
+            height: 650px;
+            width: 600px;
+            background-color:aliceblue;
+            float:left;
+            margin-left: 20px;
+            margin-top: 10px;
+           
+        }
+        .rightup{
+            height: 270px;
+            width: 550px;
+            background-color: white;
+            margin-left: 10px;
+            margin-top: 5px;
+            padding: 10px;
+            box-shadow: 5px 5px 5px rgb(202, 220, 237);
+            border: 2px solid   rgb(202, 220, 237);
+            border-radius: 3px;
+            padding: 10px;
+        }
+        .rightdown{
+            height: 270px;
+            width: 550px;
+            background-color: white;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding: 10px;
+            box-shadow: 5px 5px 5px rgb(202, 220, 237);
+            border: 2px solid   rgb(202, 220, 237);
+            border-radius: 3px;
+        }

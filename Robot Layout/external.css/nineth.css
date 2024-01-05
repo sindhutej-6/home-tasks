@@ -1,0 +1,79 @@
+.nine{
+    height: 600px;
+    width: 1500px;
+    background:white;
+    
+    
+    
+}
+.dip{
+    height: 450px;
+    width: 900px;
+    margin-left: 310px;
+    position: relative;
+    top: 80px;
+}
+.diip{
+    height:450px;
+    width: 350px;
+    background-image:url("/images/he.png");
+    background-repeat: no-repeat;
+    background-size: 350px 450px;
+    float: left;
+}
+.diipp{
+    height: 450px;
+    width: 550px;
+    background:white;
+    float: right;
+    
+}
+.f8{
+    font-size: 35px;
+    font-family: Lato;
+    font-size:12px;
+    font-weight: 600;
+    position: relative;
+    top: 85px;
+    left: 40px;
+    letter-spacing: 1px;
+
+}
+.f9{
+    
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    top: 65px;
+    left: 38px;
+}
+.f10{
+    font-size: 16px;
+    font-family: Open Sans;
+    color: rgb(135, 133, 133);
+    position: relative;
+    top: 45px;
+    left: 40px;
+
+}
+.bts{
+    height: 35px;
+    width: 120px;
+    background: rgb(187, 222, 222);
+    position: relative;
+    left: 40px;
+    top: 55px;
+    border-style: hidden;
+    letter-spacing: 1px;
+    font-family: Open Sans;
+    
+}
+.fram{
+    height: 135px;
+    width: 135px;
+    float: right;
+    background-image: url("/images/fra.png");
+    background-repeat: no-repeat;
+    background-size: 135px 135px;
+}

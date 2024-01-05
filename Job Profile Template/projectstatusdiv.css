@@ -1,0 +1,33 @@
+h4{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.cc{
+    color: rgb(81, 80, 80);
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+.pro{
+    accent-color: rgb(0, 106, 255);
+    width: 550px;
+}
+.pr{
+    accent-color: red;
+    width: 550px;
+}
+.proo{
+    accent-color: green;
+    width: 550px;
+}
+.prooo{
+    accent-color:black;
+    width: 550px;
+}
+.prr{
+    accent-color: rgb(55, 143, 149);
+    width: 550px;
+}
+progress::-webkit-progress-bar{
+    background-color: lightgray;
+}

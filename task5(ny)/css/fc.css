@@ -1,0 +1,160 @@
+.main{
+    height: 750px;
+    width: 1510px;
+    background-color: aliceblue;
+    position: fixed;
+}
+.up{
+    height: 320px;
+    width: 940px;
+    
+    position: relative;
+    top: 30px;
+    left: 295px;
+}
+.a{
+    height: 320px;
+    width: 300px;
+    position: relative;
+    background-color: rgb(255, 254, 248);
+    
+    float: left;
+}
+.af{
+    font-family: Ubuntu;
+    font-size: 43px;
+    font-weight: bolder;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+.b{
+    height: 320px;
+    width: 300px;
+    position: relative;
+    left:20px;
+    
+    background-color: rgb(214, 231, 250);
+    float: left;
+}
+.c{
+    height: 320px;
+    width: 300px;
+    position: relative;
+    
+    background-color:rgb(248, 248, 214);
+    float: right;
+}
+.da{
+    height: 320px;
+    width: 300px;
+    position: relative;
+    
+    background-color: rgb(250, 237, 250);
+    float: left;
+}
+.dc{
+    height: 320px;
+    width: 300px;
+    position: relative;
+    
+    background-color:rgb(250, 237, 250);
+    float: right;
+}
+.im{
+    height: 64px;
+    width: 64px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.foo{
+    font-family:  Ubuntu;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    letter-spacing: 1px;
+}
+.pf{
+    font-family: Noto Sans ;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25pt;
+}
+.pff{
+    font-family: Noto Sans ;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    font-weight: 350;
+
+}
+.ico{
+    height: 25px;
+    width:25px;
+    position: relative;
+    left: 15px;
+    bottom: 98px;
+}
+.ico1{
+    height: 25px;
+    width:25px;
+    position: relative;
+    right: 14px;
+    bottom: 63px;
+}
+.ico2{
+    height: 25px;
+    width:25px;
+    position: relative;
+    right:43px;
+    bottom: 30px;
+}
+.btn{
+    height: 35px;
+    width: 130px;
+    background-color: rgb(175, 112, 235);
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    border-style: hidden ;
+    font-family: Ubuntu;
+    letter-spacing:1px;
+}
+.btn2{
+    height: 35px;
+    width: 130px;
+    background-color: rgb(175, 112, 235);
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: white;
+    border-style: hidden ;
+    font-family: Ubuntu;
+    letter-spacing:1px;
+}
+.r{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 1px;
+    left: 5px;
+}
+
+
+
+
+
+
+.down{
+    height: 320px;
+    width: 940px;
+    
+    position: relative;
+    top: 50px;
+    left: 295px;
+}

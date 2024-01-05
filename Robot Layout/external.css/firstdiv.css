@@ -1,0 +1,56 @@
+.main{
+    height: 4770px;
+    width: 1500px;
+    background: aliceblue;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+   
+}
+.first{
+    height: 700px;
+    width: 1500px;
+    
+    background-image: url("../images/robo.jpg");
+    background-repeat: no-repeat;
+    background-size:1500px 700px; 
+}
+.style{
+    height: 600px;
+    width: 650px;
+    
+    margin-left: 750px;
+    
+     
+}
+.bar{
+    height: 130px;
+    width: 12px;
+    background:rgb(182, 226, 226);
+    position: relative;
+    top: 30px;
+    
+}
+.barr{
+    height: 570px;
+    width: 650px;
+    
+}
+.fon{
+    font-size: 90px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+    
+}
+.small{
+    font-family: Roboto ;
+    color: white;
+    white-space: nowrap;
+    position: relative;
+    top: 130px;
+    line-height: 16pt;
+    word-spacing: 2px;
+}

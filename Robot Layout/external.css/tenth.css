@@ -1,0 +1,53 @@
+.tenth{
+    height: 300px;
+    width: 1500px;
+    background-color:white;
+}
+.tbl{
+    height: 250px;
+    width: 1500px;
+    background-color: #003151;
+}
+.tbd{
+    height: 50px;
+    width: 1500px;
+    background-color: #3c3e3c;
+}
+.pos{
+    position: relative;
+    top: 80px;
+    left: 550px;
+    font-size: 15px;
+    font-family: Open Sans;
+    color: white;
+    line-height: 0px;
+}
+.facebook{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 130px;
+    left: 340px;
+}
+.twitter{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 130px;
+    left: 350px;
+}
+.instagram{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 130px;
+    left: 360px;
+}
+.linkedin{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 130px;
+    left: 370px;
+}
+

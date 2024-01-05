@@ -1,0 +1,75 @@
+.fourth{
+    height: 600px;
+    width: 1500px;
+    
+    
+    
+}
+.b{
+    height: 200px;
+    width: 250px;
+    background: rgb(195, 160, 130);
+    position: relative;
+    top: 80px;
+    left: 280px;
+    margin-bottom: 7px;
+}
+.c{
+    height: 200px;
+    width: 250px;
+    background-image: url("/images/rr.png");
+    background-repeat: no-repeat;
+    background-size: 250px 200px;
+    position: relative;
+    top: 80px;
+    left: 280px;
+}
+.d{
+    height: 410px;
+    width: 350px;
+    background-image: url("/images/mm.png");
+    background-repeat: no-repeat;
+    background-size: 350px 410px;
+    float: left;
+    position: relative;
+    bottom: 328px;
+    left: 535px;
+}
+.e{
+    height: 410px;
+    width: 350px;
+    background: rgb(187, 222, 222);
+    float: left;
+    position: relative;
+    bottom: 328px;
+    left: 540px;
+}
+.fo1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: Open Sans;
+    white-space: nowrap;
+    position: relative;
+    top: 65px;
+    left: 25px;
+}
+.fo2{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20pt;
+    color:  rgb(99, 97, 97);
+    font-family: Open Sans;
+    white-space: nowrap;
+    position: relative;
+    top: 55px;
+    left: 25px;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    background: rgb(187, 222, 222);
+    position: relative;
+    right: 90px;
+    top: 100px;
+}

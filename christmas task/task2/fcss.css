@@ -1,0 +1,145 @@
+.main{
+    height: 500px;
+    width: 1200px;
+    position: fixed;
+    top: 80px;
+    left: 160px;
+    background: aliceblue;
+}
+.first{
+    height: 150px;
+    width: 1200px;
+    background: white;
+    
+}
+.second
+{
+    height: 350px;
+    width:1200px;
+    background-color:rgb(71, 207, 207);
+
+}
+body{
+    background: aliceblue;
+}
+.fdiv{
+    height: 350px;
+    width: 250px;
+    background: white;
+   
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+    float: left;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.sdiv{
+    height: 350px;
+    width: 250px;
+    background: white;
+    
+    position: relative;
+    left: 90px;
+    bottom: 120px;
+    float: left;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.tdiv{
+    height: 350px;
+    width: 250px;
+    background: white;
+    
+    position: relative;
+    left: 110px;
+    bottom: 60px;
+    float: left;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.ffdiv{
+    height: 350px;
+    width: 250px;
+    background: white;
+    position: relative;
+    right: 60px;
+    bottom: 120px;
+    float: right;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.s{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: rgb(255, 108, 82);
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.im{
+    height:50px;
+    width: 50px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.imm{
+    height:35px;
+    width: 35px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.p{
+    font-family: Nunito Sans;
+    font-weight: 800;
+    letter-spacing: 2px;
+    position: relative;
+    right: 28px;
+}
+.pp{
+    font-family: Nunito Sans;
+    font-weight: 800;
+    letter-spacing: 2px;
+    position: relative;
+    right: 18px;
+}
+.ppp{
+    font-family: Nunito Sans;
+    font-weight: 800;
+    letter-spacing: 2px;
+    position: relative;
+    right: 10px;
+    top: 15px;
+}
+.foo{
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-size: 15px;
+    position: relative;
+    white-space: nowrap;
+    right: 60px;
+    color: rgb(97, 95, 95);
+}
+.fooo{
+    font-family: Nunito Sans;
+    font-weight: bolder;
+    position: relative;
+    right: 5px;
+    top: 39px;
+    letter-spacing: 2px;
+    
+}
+.q{
+   position: relative;
+   right: 6px;
+   font-size: bold;
+}
+.foooo{
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-size: 15px;
+    position: relative;
+    white-space: nowrap;
+    top: 12px;
+    right: 60px;
+    color: rgb(97, 95, 95);
+}

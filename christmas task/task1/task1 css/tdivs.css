@@ -1,0 +1,44 @@
+.fdiv{
+    height: 180px;
+    width: 280px;
+    border: 1px solid white;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    background: white;
+    box-shadow: 5px 5px 5px lightgray;
+    float: left;
+}
+.sdiv{
+    height: 180px;
+    width: 280px;
+    border: 1px solid white;
+    position: relative;
+    right: 100px;
+    bottom: 150px;
+    background: white;
+    box-shadow: 5px 5px 5px lightgray;
+    float: right;
+}
+.tdiv{
+    height: 180px;
+    width: 280px;
+    border: 1px solid white;
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+    background: white;
+    box-shadow: 5px 5px 5px lightgray;
+    float: left;
+}
+.ffdiv{
+    height: 180px;
+    width: 280px;
+    border: 1px solid white;
+    position: relative;
+    right: 100px;
+    bottom:100px;
+    background: white;
+    box-shadow: 5px 5px 5px lightgray;
+    float: right;
+}

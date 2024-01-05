@@ -1,0 +1,59 @@
+.fi{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background: orange;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.si{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background: rgb(4, 194, 194);
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.ti{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background: rgb(134, 2, 249);
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.ffi{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    background: red;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.style{
+    font-family:  Oswald;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.p{
+    font-family:Inter;
+    font-size: 11px;
+    font-style: italic;
+    position: relative;
+    color: rgb(176, 180, 180);
+    left: 20px;
+
+}

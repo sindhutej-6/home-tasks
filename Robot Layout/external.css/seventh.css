@@ -1,0 +1,78 @@
+.seventh{
+    height: 400px;
+    width: 1500px;
+    background: rgb(43, 38, 38);
+}
+.div2{
+    height: 250px;
+    width: 1300px;
+    margin-left: 80px;
+    position: relative;
+    top: 100px;
+   
+    border: 1px solid red;
+    border-style:hidden ;
+}
+.bar2{
+    height: 210px;
+    width: 10px;
+    background: rgb(217, 182, 98);
+    float: left;
+}
+.qu{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    bottom: 20px;
+    
+
+    background-image: url("/images/quote\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+.font{
+    height: 90px;
+    width: 1200px;
+    border: 1px solid red;
+    border-style:hidden ;
+    float: left;
+    margin-left:30px;
+    position: relative;
+    top: 5px;
+    bottom: 130px;
+}
+.ff{
+    
+    position: relative;
+    right:225px ;
+    bottom: 20px;
+    font-size: 21px;
+    font-weight: 230;
+    
+    color:  rgb(167, 150, 150);
+    font-family: Open Sans;
+    white-space: nowrap;
+}
+.fg{
+    height:50px;
+    width: 200px;
+    border: 1px solid red;
+    border-style:hidden ;
+    position: relative;
+    left: 1010px;
+    top: 190px;
+}
+.fff{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    font-family: Open Sans;
+    white-space: nowrap;
+    position: relative;
+    right: 100px;
+    
+    
+    
+}

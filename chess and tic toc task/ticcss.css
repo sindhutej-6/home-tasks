@@ -1,0 +1,90 @@
+.a{
+    height: 650px;
+    width: 600px;
+    border: 5px solid black;
+    padding: 40px;
+}
+.f{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-left: hidden;
+    border-top: hidden ;
+
+}
+.ff{
+    height: 200px;
+    width: 200px;
+    border: 5px solid ;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color: blue;
+}
+.fff{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: hidden;
+    border-top: hidden ;
+}
+.m{
+    margin-left: 250px;
+
+    
+}
+.t{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-bottom: hidden;
+    border-left: hidden ;
+
+}
+.tt{
+    height: 200px;
+    width: 200px;
+    border: 5px solid ;
+    border-color: blue;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+}
+.ttt{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-right: hidden;
+    border-bottom: hidden ;
+}
+.i{
+    height: 150px;
+    width: 150px;
+    margin-left: 25px;
+}
+.n{
+    height: 200px;
+    width: 200px;
+    border: 5px solid ;
+    border-right-color: blue;
+    border-left: hidden;
+    border-top: hidden;
+    border-bottom: hidden;
+    
+
+}
+.nn{
+    height: 200px;
+    width: 200px;
+    border: hidden ;
+    
+}
+.nnn{
+    height: 200px;
+    width: 200px;
+    border: 5px solid ;
+    border-left-color: blue;
+    border-top: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+}

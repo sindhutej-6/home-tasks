@@ -1,0 +1,61 @@
+.sixth{
+    height: 700px;
+    width: 1500px;
+    
+    
+}
+.ha{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+    left: 550px;
+    color: rgb(193, 174, 150);
+}
+.sa{
+     
+     position: relative;
+     top: 80px;
+     left: 420px;
+     font-size: 18px;
+    font-weight: 300;
+    line-height: 20pt;
+    color:  rgb(99, 97, 97);
+    font-family: Open Sans;
+    white-space: nowrap;
+}
+.div1{
+    height: 400px;
+    width: 960px;
+    
+    margin-right: 250px;
+    margin-left: 270px;
+    margin-top: 100px;
+    border: 1px solid red;
+    border: hidden;
+}
+.dd{
+    height: 400px;
+    width: 320px;
+    float: left;
+    background-image: url("/images/cup.png");
+    background-repeat: no-repeat;
+    background-size: 320px 400px;
+}
+.de{
+    height: 400px;
+    width: 320px;
+    float: left;
+    background-image: url("/images/en\ \(5\).png");
+    background-repeat: no-repeat;
+    background-size: 320px 400px;
+}
+.de2{
+    height: 400px;
+    width: 320px;
+    float: right;
+    background-image: url("/images/en\ \(4\).png");
+    background-repeat: no-repeat;
+    background-size: 320px 400px;
+}

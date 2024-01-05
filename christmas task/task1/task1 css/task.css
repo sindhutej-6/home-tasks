@@ -1,0 +1,106 @@
+.main{
+    height: 750px;
+    width: 800px;
+    background: rgb(251, 251, 251);
+    position: fixed;
+    left: 370px;
+}
+.first{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(252, 252, 252);
+}
+.a{
+    font-family: Inter;
+    font-size: 12px;
+    position:fixed;
+    top: 20px;
+    left: 580px;
+    letter-spacing: 5px;
+}
+.b{
+    font-size: 40px;
+    font-family: Oswald;
+    font-weight: bolder;
+    position: fixed;
+    top: 35px;
+    left: 630px;
+    letter-spacing: 2px;
+}
+.c{
+    font-size: 12px;
+    font-family: Open Sans;
+    position: fixed;
+    top: 110px;
+    left: 540px;
+    word-spacing: 3px;
+}
+.d{
+    font-size: 12px;
+    font-family: Open Sans;
+    position: fixed;
+    top: 128px;
+    left: 500px;
+    word-spacing: 1px;
+}
+.e{
+    font-size: 12px;
+    font-family: Open Sans;
+    position: fixed;
+    top: 145px;
+    left: 500px;
+    word-spacing: 3px;
+}
+.f{
+    font-size: 12px;
+    font-family: Open Sans;
+    position: fixed;
+    top: 160px;
+    left: 670px;
+    word-spacing: 1px;
+}
+.second{
+    height: 200px;
+    width: 800px;
+    background: rgb(235, 232, 232);
+}
+.third{
+    height: 150px;
+    width: 800px;
+    background: rgb(251, 251, 251);
+    
+}
+.btn{
+    height: 40px;
+    width: 180px;
+    border: 1px ;
+    background: rgb(134, 2, 249);
+    border-radius: 30px;
+    position: fixed;
+    top: 200px;
+    left: 680px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: white;
+}
+.learn{
+    font-family: Inter;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

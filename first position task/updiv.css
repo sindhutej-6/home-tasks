@@ -1,0 +1,82 @@
+.sta{
+    height: 96px;
+    width: 85px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: static;
+}
+.staa{
+    height: 80px;
+    width: 65px;
+    border: 2px solid green;
+    background: limegreen;
+    position: static;
+    padding: 10px;
+    
+}
+.fo1{
+    
+    position: relative;
+    top: 30px;
+    left: 14px;
+    
+}
+
+.rel{
+    height: 96px;
+    width: 90px;
+    border: 2px solid green;
+    background: limegreen;
+    position: relative;
+    top: 20px;
+    left:20px;
+}
+.ta{
+    height: 96px;
+    width: 85px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    top: 5px;
+    opacity: 0.8;
+}
+.fo2{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    
+}
+.fo3{
+    position: relative;
+    top: 40px;
+    left: 14px;
+    
+}
+
+.rel2{
+    height: 96px;
+    width: 80px;
+    border: 2px solid green;
+    background: limegreen;
+    position: absolute;
+    top: 0px;
+    left: 87px;
+    
+}
+.parent{
+    height: 96px;
+    width: 85px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    
+}
+.fixed{
+    height: 96px;
+    width: 80px;
+    border: 2px solid green;
+    background: limegreen;
+    position: fixed;
+    left: 950px;
+    top: 0px;
+}

@@ -1,0 +1,115 @@
+.third{
+    height: 600px;
+    width: 1500px;
+    
+    background: aqua;
+    
+}
+.black{
+    height: 600px;
+    width: 750px;
+    background: black;
+    float: left;
+}
+.blue{
+    height: 600px;
+    width: 750px;
+    background: rgb(187, 222, 222);
+    float: right;
+}
+.bf{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    font-size: 40px;
+    font-family: Poppins;
+    color:white ;
+    white-space: nowrap;
+}
+.df{
+    position:relative ;
+    left: 150px;
+    top: 120px;
+    font-size: 20px;
+    line-height: 20pt;
+    font-style: italic;
+    font-family: Open Sans;
+    white-space: nowrap;
+    color: white;
+}
+.i1{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-image: url("/images/mini.jpeg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px; 
+
+}
+.i2{
+    position: relative;
+    top: 150px;
+    left:150px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-image: url("/images/minii.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px; 
+
+}
+.i3{
+    position: relative;
+    top: 150px;
+    left:150px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-image: url("/images/man.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px; 
+
+}
+.i4{
+    height: 250px;
+    width: 350px;
+    background-image: url('/images/fr.png');
+    background-repeat: no-repeat;
+    background-size: 350px 250px;
+}
+.i5{
+    position: relative;
+    top: 14px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-image: url("/images/r.png");
+    background-repeat: no-repeat;
+    background-size: 200px 200px; 
+
+}
+.i6{
+    position: relative;
+    top: 14px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-image: url("/images/p.png");
+    background-repeat: no-repeat;
+    background-size: 200px 200px; 
+
+}
+.i7{
+    position: relative;
+    top: 14px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-image: url("/images/b.png");
+    background-repeat: no-repeat;
+    background-size: 200px 200px; 
+
+}

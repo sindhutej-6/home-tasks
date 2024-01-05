@@ -1,0 +1,102 @@
+.main{
+    height: 700px;
+    width: 800px;
+    outline: 1px solid black;
+    outline: hidden;
+}
+.first{
+    height: 350px;
+    width: 800px;
+    outline: 1px solid black;
+    outline: hidden;
+}
+.second{
+    height: 350px;
+    width: 800px;
+    outline: 1px solid black;
+    outline: hidden;
+}
+.a{
+    height: 350px;
+    width: 200px;
+    outline: 1px solid black;
+    float: left;
+    padding-top: 0px;
+    
+    
+}
+.b{
+    height: 350px;
+    width: 200px;
+    outline: 1px solid black;
+    float: left;
+}
+.c{
+    height: 350px;
+    width: 200px;
+    outline: 1px solid black;
+    float: left;
+}
+.d{
+    height: 350px;
+    width: 200px;
+    outline: 1px solid black;
+    float: left;
+}
+#a{
+    height: 300px;
+    width: 170px;
+    outline: 1px solid grey;
+    margin-left: 12px;
+    margin-top: 14px;
+    margin-bottom: 1px;  
+    
+}
+#b{
+    height:240px;
+    width: 170px;
+    outline: 1px solid grey;
+    margin-left: 12px;
+    margin-top: 14px;
+    margin-bottom: 1px; 
+    padding-top: 10px;
+    overflow-y: scroll;
+}
+#c{
+    height:240px;
+    width: 170px;
+    outline: 1px solid grey;
+    margin-left: 12px;
+    margin-top: 14px;
+    margin-bottom: 1px; 
+    padding-top: 10px;
+    overflow-y: scroll;
+}
+#d{
+    height:240px;
+    width: 170px;
+    outline: 1px solid grey;
+    margin-left: 12px;
+    margin-top: 14px;
+    margin-bottom: 1px; 
+    padding-top: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#e{
+    height:240px;
+    width: 170px;
+    outline: 1px solid grey;
+    margin-left: 12px;
+    margin-top: 14px;
+    margin-bottom: 1px; 
+    padding-top: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#font{
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: bold;
+}

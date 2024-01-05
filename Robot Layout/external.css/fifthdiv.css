@@ -1,0 +1,115 @@
+.fifth{
+    height: 400px;
+    width: 1500px;
+    background: rgb(73, 62, 62);
+    padding-top: 50px;
+   
+    
+    
+    
+}
+#a{
+    height: 300px;
+    width: 400px;
+   
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 1px solid red;
+    border-style: hidden;
+    
+}
+#b{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    bottom: 290px;
+    left: 570px;
+    border: 1px solid red;
+    border-style: hidden;
+}
+#c{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    bottom: 590px;
+    border: 1px solid red;
+    border-style: hidden;
+    left:1000px;
+    
+}
+.rr{
+    
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 160px;
+    
+}
+.re{
+    
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 3px;
+}
+.ri{
+    
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 3px;
+    
+}
+.h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(148, 90, 40);
+    font-family: Open Sans;
+    position: relative;
+    bottom: 120px;
+    right: 52px;
+   
+}
+.h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(148, 90, 40);
+    font-family: Open Sans;
+    position: relative;
+    top: 40px;
+    right: 52px;
+   
+}
+.h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(148, 90, 40);
+    font-family: Open Sans;
+    position: relative;
+   top: 40px;
+    right: 52px;
+   
+}
+.ff1{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20pt;
+    color:  rgb(99, 97, 97);
+    font-family: Open Sans;
+    white-space: nowrap;
+    position: relative;
+    left: 5px;
+    bottom: 100px;
+}
+.ff2{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20pt;
+    color:  rgb(99, 97, 97);
+    font-family: Open Sans;
+    white-space: nowrap;
+    position: relative;
+    left: 5px;
+    top: 60px;
+}

@@ -1,0 +1,116 @@
+.els{
+    height: 96px;
+    width: 85px;
+    border: 2px solid green;
+    background: limegreen;
+    position: sticky;
+    top: 1px;
+}
+    
+
+
+.taa{
+    height: 96px;
+    width: 85px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    top: 0px;
+    opacity: 0.8;
+}
+#fo4{
+    position: relative;
+    top: 35px;
+    left: 20px;
+    
+}
+.elsa{
+    height: 96px;
+    width: 85px;
+    border: 2px solid green;
+    background: limegreen;
+    position: sticky;
+    bottom: 1px;
+    opacity: 0.8;
+    
+}
+#left{
+    height: 96px;
+    width: 80px;
+    border: 2px solid green;
+    background: limegreen;
+    
+    position: sticky;
+    left: 1px;
+}
+#lb{
+    height: 96px;
+    width: 85px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    bottom: 100px;
+    left: 45px;
+    opacity: 0.8;
+}
+#lbb{
+    height: 96px;
+    width: 80px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    float: right;
+    opacity: 0.8;
+    margin-right: 20px;
+}
+#right{
+    position: sticky;
+    left: 100px;
+    height: 96px;
+    width: 80px;
+    border: 2px solid green;
+    background: limegreen;
+    left: 100px;
+    
+    float: right;
+    position: relative;
+    bottom: 200px;
+    opacity: 0.8;
+    position: sticky;
+    right: 1px;
+    
+}
+#lbr{
+    height: 96px;
+    width: 90px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    left: 2px;
+    opacity: 0.8;
+}
+#lbbr{
+    height: 96px;
+    width: 100px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    bottom: 200px;
+    left: 135px;
+    
+    
+    float: right;
+    opacity: 0.8;
+}
+#lbbr1{
+    height: 96px;
+    width: 100px;
+    background: deepskyblue;
+    border: 2px solid blue;
+    position: relative;
+    bottom: 100px;
+    left: 96px;
+    opacity: 0.8;
+}

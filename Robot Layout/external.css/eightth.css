@@ -1,0 +1,62 @@
+.eight{
+    height: 700px;
+    width: 1500px;
+    background: rgb(187, 222, 222);
+}
+.dee{
+    height: 600px;
+    width: 1000px;
+   
+    margin-left: 250px;
+    
+    
+    position: relative;
+    top: 60px;
+}
+.deep{
+    height: 580px;
+    width: 550px;
+    background-image:url("/images/pad.png");
+    background-repeat: no-repeat;
+    background-size: 550px 580px;
+    float: left;
+}
+.deepp{
+    height: 580px;
+    width: 450px;
+    background:rgb(210, 233, 233) ;
+    
+    float: right;
+    
+}
+.f5{
+    font-size: 35px;
+    font-family: Lato;
+    font-weight: bold;
+    position: relative;
+    right: 130px;
+}
+.f7{
+    font-size: 16px;
+    
+    font-family: Open Sans;
+    color: rgb(135, 133, 133);
+    position: relative;
+    right: 200px;
+    line-height: 20pt;
+    position: relative;
+    right: 65px;
+    bottom: 60px;
+}
+.bt{
+    height: 50px;
+    width: 150px;
+    background: rgb(187, 222, 222);
+    position: relative;
+    left: 35px;
+    bottom: 80px;
+    border-style: hidden;
+    letter-spacing: 1px;
+    font-family: Open Sans;
+    
+}
