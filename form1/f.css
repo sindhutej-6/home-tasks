@@ -1,0 +1,236 @@
+.main{      
+    height: 722px;
+    width: 1510px;
+    overflow-x: hidden;
+    position: relative;
+    top: 5px;
+    background-color: aliceblue;
+}
+*{
+    font-family: Open Sans;
+}
+.mainf{
+    position: relative;
+    
+    left: 30px;
+    
+    
+}
+.a{
+    height: 520px;
+    width: 1200px;
+    position: relative;
+    left: 160px;
+    top: 40px;
+}
+@media  screen and (min-width:900px) and (max-width:933px){
+    .a1{
+        width: 100%;
+        
+    }
+}
+.a1{
+    height: 520px;
+    width: 550px;
+    float: left;
+}
+.a2{
+    height: 520px;
+    width: 650px;
+    float: right;
+}
+.i{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 60px;
+    left: 120px;
+}
+.if{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.if1{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-style: oblique;
+    color:rgb(144, 142, 142);
+    font-weight: 200;
+}
+#in{
+    height: 40px;
+    width: 220px;
+    padding-left: 65px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    margin-right: 60px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 5px;
+    z-index: 1;
+}
+#in1{
+    height: 40px;
+    width: 520px;
+    padding-left: 65px;
+    position: relative;
+    left: 30px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 5px;
+}
+#in2{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    padding-left: 65px;
+    left: 30px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 5px;
+}
+#in3{
+    height: 40px;
+    width: 370px;
+    position: relative;
+    left: 13px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 5px;
+}
+#in4{
+    height: 40px;
+    width: 220px;
+    padding-left: 65px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    margin-right: 60px;
+    border: 1px solid lightgray;
+    color: lightgray;
+    border-radius: 5px;
+}
+#btn{
+    height: 40px;
+    width: 520px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    color:white;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color:blue ;
+}
+#btn1{
+    height: 40px;
+    width: 520px;
+    position: relative;
+    left: 50px;
+    top: 80px;
+    color:white;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color:darkblue ;
+}
+#btn2{
+    height: 40px;
+    width: 520px;
+    position: relative;
+    left: 50px;
+    top: 85px;
+    color:white;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color:rgb(36, 166, 217) ;
+}
+#bf{
+    color: black;
+    position: relative;
+    left:210px;
+    top: 80px;
+    
+}
+#bf1{
+    color: rgb(71, 161, 197);
+    position: relative;
+    top: 37px;
+    left: 365px;
+    
+    display: inline;
+}
+.o{
+    height: 1px;
+    width: 230px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    background-color: lightgray;
+    float: left;
+}
+.of{
+    font-weight: 5;
+    position: relative;
+    left: 252px;
+    bottom: 30px;
+}
+.o2{
+    height: 1px;
+    width: 230px;
+    position: relative;
+    top: 60px;
+    right:83px;
+    background-color: lightgray;
+    float: right;
+}
+#ip{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 55px;
+    left: 60px;
+    z-index: 2;
+}
+#ip1{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 30px;
+    right: 220px;
+    z-index: 2;
+}
+#ip2{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 70px;
+    right: 180px;
+    z-index: 2;
+}
+#ip3{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 60px;
+    top: 5px;
+    z-index: 2;
+}
+#ip4{
+    height: 12px;
+    width: 12px;
+    position: relative;
+    
+    top: 2px;
+    z-index: 2;
+}
+#ip5{
+    height: 17px;
+    width: 17px;
+    position: relative;
+    top: 2px;
+    right: 8px;
+}
+
+
