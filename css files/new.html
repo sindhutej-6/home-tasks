@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transform -2D</title>
+        <style>
+            #a{
+                height: 200px;
+                width: 200px;
+                background-color: antiquewhite;
+                float: left;
+                
+            }
+           @media screen and (max-width:415px){
+            #a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o{
+                width: 98%;
+            }
+           }
+                
+            
+                
+        
+            #a:hover{
+                transform: translate(30px,20px);
+            }
+            #b{
+                height: 200px;
+                width: 200px;
+                background-color: red;
+                float: left;
+                
+                
+            }
+            #b:hover{
+                transform: translateX(30px);
+            }
+            #c{
+                height: 200px;
+                width: 200px;
+                background-color: blue;
+                float: left;
+                
+                
+            }
+            #c:hover{
+                transform:translateY(30px)
+            }
+            #d{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(255, 132, 0);
+                float: left;
+                
+                
+            }
+            #d:hover{
+                transform:rotate(90deg)
+            }
+            #e{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(255, 0, 179);
+                float: left;
+                
+                
+            }
+            #e:hover{
+                transform:rotateX(60deg)
+            }
+            #f{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 251, 255);
+                float: left;
+                
+                
+            }
+            #f:hover{
+                transform:rotateY(30deg)
+            }
+            #g{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(153, 255, 0);
+                float: left;
+                
+                
+            }
+            #g:hover{
+                transform:scale(2)
+            }
+            #h{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 251, 255);
+                float: left;
+               
+                
+            }
+            #h:hover{
+                transform:scale(2,3)
+            }
+            #i{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(255, 0, 106);
+                float: left;
+                
+                
+            }
+            #i:hover{
+                transform:scaleX(2)
+            }
+            #j{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 255, 0);
+                float: left;
+                
+                
+            }
+            #j:hover{
+                transform:scaleY(3)
+            }
+            #k{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(190, 187, 246);
+                float: left;
+                
+                
+            }
+            #k:hover{
+                transform:scale(-3)
+            }
+            #l{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(166, 0, 255);
+                float: left;
+                
+                
+            }
+            #l:hover{
+                transform:skew(40deg,20deg)
+            }
+            #m{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 170, 255);
+                float: left;
+                
+                
+            }
+            #m:hover{
+                transform:skewX(40deg)
+            }
+            #n{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(191, 255, 0);
+                float: left;
+                
+               
+                
+            }
+            #n:hover{
+                transform:skewY(-20deg);
+                box-shadow: 14px 15px 5px lightgray;
+            }
+            #o{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 162, 255);
+                float: left;
+                
+                
+            }
+            #o:hover{
+                transform:matrix(1,0.2,0.5,2,0,0)
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div id="a">translate()</div>
+        <div id="b">translateX()</div>
+        <div id="c">translateY()</div>
+        <div id="d">rotate() we can give -(anticlockwise) and +(clockwise) number to this function after the number we have to mention deg</div>
+        <div id="e">rotateX()</div>
+        <div id="f">rotateY()</div>
+        <div id="g">scale()</div>
+        <div id="h">scale(width,height)</div>
+        <div id="i">scaleX()</div>
+        <div id="j">scaleY()</div>
+        <div id="k">scale(-value)</div>
+        <div id="l">skew()-,+</div>
+        <div id="m">skewX()</div>
+        <div id="n">skewY()</div>
+        <div id="o">margin(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())</div>
+    </body>
+</html>

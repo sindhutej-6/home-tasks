@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 200px;
+            width: 200px;
+            background-color: violet;
+            float: left;
+           
+            border: 1px solid black;
+        }
+        #a:hover{
+            transform: translate(80px,40px);
+        }
+        .b{
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #b:hover{
+            transform: translateX(80px);
+        }
+        .c{
+            height: 200px;
+            width: 200px;
+            background-color: skyblue;
+            border: 1px solid black;
+            
+            float: left;
+        }
+        #c:hover{
+            transform: translateY(80px);
+        }
+        .d{
+            height: 200px;
+            width: 200px;
+            background-color: lavender;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #d:hover{
+            transform: rotate(50deg);
+        }
+        .e{
+            height: 200px;
+            width: 200px;
+            background-color: gray;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #e:hover{
+            transform: rotate(-50deg);
+        }
+        .f{
+            height: 200px;
+            width: 200px;
+            background-color: lightgreen;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #f:hover{
+            transform:rotateZ(80deg);
+        }
+        .g{
+            height: 200px;
+            width: 200px;
+            background-color: lightgoldenrodyellow;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #g:hover{
+            transform:rotateX(80deg);
+        }
+        .h{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #h:hover{
+            transform:rotateY(80deg);
+        }
+        .i{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(254, 103, 103);
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #i:hover{
+            transform:scale(2); 
+        }
+        .j{
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #j:hover{
+            transform:scale(2,1);
+        }
+        .k{
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #k:hover{
+            transform:scaleY(2);        
+        }
+        .l{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            color: white;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #l:hover{
+            transform:skew(50deg,50deg);
+        }
+        .m{
+            height: 200px;
+            width: 200px;
+            background-color: magenta;
+           
+            border: 1px solid black;
+            float: left;
+        }
+        #m:hover{
+            transform:skewX(10deg);
+        }
+        .n{
+            height: 200px;
+            width: 200px;
+            background-color: maroon;
+           
+            border: 1px solid black;
+            float: left;
+        }
+        #n:hover{
+            transform:skewY(20deg);
+        }
+        .o{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #o:hover{
+            transform:skew(-20deg,-20deg);
+        }
+        .p{
+            height: 200px;
+            width: 200px;
+            background-color: hotpink;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #p:hover{
+            transform:matrix(1,2,5,1,5,5);       
+        }
+        .q{
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+            
+            border: 1px solid black;
+            float: left;
+        }
+        #q:hover{
+            transform:translate3d(80px,80px,80px);
+        }
+        @media screen and (min-width:221px) and (max-width:458px){
+            #a,#b,#c,#d,#e,#f,#g,#l,#m,#n,#o,#p,#q{
+                width: 100%;
+                text-align: center;
+            }
+        }
+        @media screen and (min-width:460px) and (max-width:680px){
+            #a,#c,#e,#g,#i,#k,#m,#o,#q{
+                width: 40%;
+                text-align: center;
+                /* float: left; */
+            }
+            #b,#d,#f,#h,#j,#l,#n,#p{
+                width: 40%;
+                text-align: center;
+                /* float: right; */
+            }
+        }
+        @media screen and (min-width:680px) and (max-width:902px){
+            #a,#c,#e,#g,#i,#k,#m,#o,#q{
+                width: 30%;
+                text-align: center;
+                /* float: left; */
+            }
+            #b,#d,#f,#h,#j,#l,#n,#p{
+                width: 30%;
+                text-align: center;
+                /* float: right; */
+            }
+        }
+        @media screen and (min-width:902px) and (max-width:1121px){
+            #a,#d,#g,#j,#m,#p{
+                width: 22%;
+                text-align: center;
+                /* float: left; */
+            }
+            #b,#e,#h,#k,#n,#n,#q{
+                width: 22%;
+                text-align: center;
+                /* float: right; */
+            }
+            #c,#f,#i,#l,#o{
+                width: 22%;
+                text-align: center;
+                /* float: left; */
+            }
+        }
+        @media screen and (min-width:1121px) and (max-width:1350px){
+            #a,#e,#i,#m,#q{
+                width: 20%;
+                text-align: center;
+            }
+            #b,#f,#j,#n{
+                width: 20%;
+                text-align: center;
+            }
+            #c,#g,#k,#o{
+                width: 20%;
+                text-align: center;
+            }
+            #d,#h,#l,#p{
+                width: 20%;
+                text-align: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="a" id="a">translate</div>
+    <div class="b" id="b">translateX</div>
+    <div class="c" id="c">translateY</div>
+    <div class="d" id="d">rotate(clockwise)</div>
+    <div class="e" id="e">rotate(anti)</div>
+    <div class="f" id="f">rotateZ</div>
+    <div class="g" id="g">rotateX</div>
+    <div class="h" id="h">rotateY</div>
+    <div class="i" id="i">scale(single value)</div>
+    <div class="j" id="j">scale(individual)</div>
+    <div class="k" id="k">scaleY</div>
+    <div class="l" id="l">skew</div>
+    <div class="m" id="m">skewX</div>
+    <div class="n" id="n">skewY</div>
+    <div class="o" id="o">skew anti</div>
+    <div class="p" id="p">matrix</div>
+    <div class="q" id="q">translate3d</div>
+</body>
+</html>
