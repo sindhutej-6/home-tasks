@@ -1,0 +1,12 @@
+.name{
+    height: 60px;
+    width: 2000px;
+    border:2px solid palevioletred;
+    background-color: antiquewhite;
+}
+#t{ 
+    margin-top: 100px;
+}
+#b{
+    background-image: url(aditya-college-image.jpg);
+}

@@ -1,0 +1,63 @@
+.external{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(40, 141, 229);
+    font-style: oblique;
+    border: 5px groove rgb(160, 91, 91);
+    background-color: bisque;
+}
+#main{
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(105, 154, 227);
+    border: 5px groove palevioletred; 
+    padding: 60px;
+    margin: 10px;
+
+}
+span{
+    color: rgb(38, 38, 199);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.s{
+    font-size: 30px;
+    color: rgb(201, 41, 41);
+    font-weight: bold;
+
+}
+*{
+    font-style:italic;
+    margin: 0px;
+    padding: 0px;
+}
+input[type =" text"]{
+    color: brown;
+    
+}
+a[href]{
+    color: rgb(234, 46, 84);
+    font-size: 30px;
+}
+a:link{
+    color: rgb(16, 19, 227);
+
+}
+a:visited{
+    color: rgb(234, 230, 238);
+}
+
+
+a:hover{
+    color: orangered;
+}
+a:active{
+    color: black;
+}
+
+
+
+
+
+

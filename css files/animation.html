@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            #a{
+                height: 200px;
+                width: 200px;
+                background-color: lightcoral;
+                border-radius: 100px;
+               position: relative;
+               top: 600px;
+               left: 1000px;
+                animation-name: testing;
+                animation-duration: 5s;
+            }
+            @keyframes testing{
+                from{
+                    background-color: beige;
+                    height: 300px;
+                    
+                }
+                to{
+                    background-color: palevioletred;
+                    width: 300px;
+                }
+            }
+            #b{
+                height: 200px;
+                width: 200px;
+                background-color: lightcoral;
+                border-radius: 100px;
+                position: relative;
+                animation-name: moving;
+                animation-duration: 4s;
+                animation-fill-mode: forwards;
+                animation-timing-function: linear;
+                animation-delay: 2s;
+                animation-iteration-count: 3;
+            }
+            @keyframes moving{
+                0%{
+                    background-color: azure;top: 0px; left:0;
+                }
+                25%{
+                    background-color: lightgreen;top: 200px;left: 600px; 
+                }
+                50%{
+                    background-color: palevioletred; top: 0px; left: 600px;
+                }
+                75%{
+                    background-color: red; top: 200px; left: 0px;
+                }
+                100%{
+                    background-color: aquamarine;top: 0px;left: 0px;
+                }
+            }
+            #c{
+                height: 200px;
+                width: 200px;
+                background-color: lightcoral;
+                border-radius: 100px;
+                position: relative;
+                animation-name: moving;
+                animation-duration: 4s;
+                animation-fill-mode: forwards;
+                animation-timing-function: linear;
+                animation-delay: 2s;
+                animation-iteration-count: 3;
+            }
+            @keyframes moving{
+                0%{
+                    background-color: azure;top: 0px; left:0;
+                }
+                25%{
+                    background-color: lightgreen;top: 100px;left: 500px; 
+                }
+                50%{
+                    background-color: palevioletred; top: 5px; left: 600px;
+                }
+                75%{
+                    background-color: red; top: 200px; left: 700px;
+                }
+                100%{
+                    background-color: aquamarine;top: 20px;left: 400px;
+                }
+            }
+            #d{
+                height: 200px;
+                width: 200px;
+                background-color: lightcoral;
+                border-radius: 100px;
+                position: relative;
+                animation-name: moving;
+                animation-duration: 4s;
+                animation-fill-mode: forwards;
+                animation-timing-function: linear;
+                animation-delay: 2s;
+                animation-iteration-count: 3;
+            }
+            @keyframes moving{
+                0%{
+                    background-color: azure;top: 0px; left:0;
+                }
+                25%{
+                    background-color: lightgreen;top: 500px;left: 500px; 
+                }
+                50%{
+                    background-color: palevioletred; top: 5px; left: 700px;
+                }
+                75%{
+                    background-color: red; top: 200px; left: 500px;
+                }
+                100%{
+                    background-color: aquamarine;top: 20px;left: 400px;
+                }
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <center><h1>Animation</h1></center>
+        <div id="a"></div>
+        <div id="b"><div id="c"></div></div>
+        <div id="d"></div>
+        
+
+    </body>
+</html>
+<!--animation:name duration iteration direction delay-->

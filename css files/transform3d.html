@@ -1,0 +1,251 @@
+<html>
+    <head>
+        <title>Transform -3D</title>
+        <style>
+            #a{
+                height: 200px;
+                width: 200px;
+                background-color: antiquewhite;
+                float: left;
+                margin-right: 10px;
+            }
+            #a:hover{
+                transform: translate3D(30px,20px,40px);
+            }
+            #b{
+                height: 200px;
+                width: 200px;
+                background-color: red;
+                float: left;
+                margin-right: 10px;
+                
+            }
+            #b:hover{
+                transform: translateX(30px);
+            }
+            #c{
+                height: 200px;
+                width: 200px;
+                background-color: blue;
+                float: left;
+                margin-right: 10px;
+                
+            }
+            #c:hover{
+                transform:translateY(30px)
+            }
+            #cZ{
+                height: 200px;
+                width: 200px;
+                background-color: blue;
+                float: left;
+                margin-right: 10px;
+                
+            }
+            #cZ:hover{
+                transform:translatez(60px)
+            }
+            #d{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(255, 132, 0);
+                float: left;
+                margin-right: 10px;
+                
+            }
+            #d:hover{
+                transform:rotate3d(10deg)
+            }
+            #dz{
+                height: 200px;
+                width: 200px;
+                background-color: blue;
+                float: left;
+                margin-right: 10px;
+                
+            }
+            #dz:hover{
+                transform:rotateZ('20')
+            }
+            #e{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(255, 0, 179);
+                float: left;
+                margin-right: 10px;
+                
+            }
+            #e:hover{
+                transform:rotateX(60deg)
+            }
+            #f{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 251, 255);
+                float: left;
+                margin-right: 10px;
+                
+            }
+            #f:hover{
+                transform:rotateY(30deg)
+            }
+            #g{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(153, 255, 0);
+                float: left;
+                margin-right: 10px;
+                
+            }
+            #g:hover{
+                transform:scale3D(2)
+            }
+            
+            #h{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 251, 255);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #h:hover{
+                transform:scale(2,3)
+            }
+            #i{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(255, 0, 106);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #i:hover{
+                transform:scaleX(2)
+            }
+            #j{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 255, 0);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #j:hover{
+                transform:scaleY(3)
+            }
+            #jZ{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 255, 0);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #jZ:hover{
+                transform:scaleZ(2)
+            }
+            #k{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(190, 187, 246);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #k:hover{
+                transform:scale(-3)
+            }
+            #lz{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(166, 0, 255);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #lz:hover{
+                transform:skew(40deg,60deg)
+            }
+            #m{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 170, 255);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #m:hover{
+                transform:skewX(40deg)
+            }
+            #n{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(191, 255, 0);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #n:hover{
+                transform:skewY(-20deg);
+                box-shadow: 14px 15px 5px lightgray;
+            }
+            #nZ{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(191, 255, 0);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #nZ:hover{
+                transform:skewZ(-10deg);
+                box-shadow: 14px 15px 5px lightgray;
+            }
+            #o{
+                height: 200px;
+                width: 200px;
+                background-color: rgb(0, 162, 255);
+                float: left;
+                margin-right: 10px;
+                margin-top: 10px;
+                
+            }
+            #o:hover{
+                transform:matrix(1,0.2,0.5,2,0,0)
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div id="a">translate()</div>
+        <div id="b">translateX()</div>
+        <div id="c">translateY()</div>
+        <div id="cz">translateZ()</div>
+        <div id="d">rotate() we can give -(anticlockwise) and +(clockwise) number to this function after the number we have to mention deg</div>
+        <div id="e">rotateX()</div>
+        <div id="f">rotateY()</div>
+        <div id="fz">rotateZ()</div>
+        <div id="g">scale()</div>
+        <div id="h">scale(width,height)</div>
+        <div id="i">scaleX()</div>
+        <div id="j">scaleY()</div>
+        <div id="jz">scaleZ()</div>
+        <div id="k">scale(-value)</div>
+        <div id="l">skew()-,+</div>
+        <div id="m">skewX()</div>
+        <div id="n">skewY()</div>
+
+        <div id="o">margin(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())</div>
+    </body>
+</html>
