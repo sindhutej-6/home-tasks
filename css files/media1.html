@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height:720px;
+            width: 1490px;
+        }
+        .a{
+            height: 720px;
+            width: 740px;
+            
+            float: left;
+        }
+        .b{
+            height: 720px;
+            width: 750px;
+           
+            float: right;
+        }
+        .a1{
+            height: 300px;
+            width: 730px;
+            background-color: darkgreen;
+            /* margin-right: 20px;
+            margin-top: 20px;  */
+        }
+        .a2{
+            height: 300px;
+            width: 730px;
+            
+            /* margin-right: 20px; 
+            margin-top: 20px;  */
+        }
+        .aa2{
+            height: 150px;
+            width: 360px;
+           
+            background-color: blue;
+            float: left;
+        }
+        .aa3{
+            height: 150px;
+            width: 360px;
+            
+            background-color: red;
+            float: right;
+        }
+        .aa4{
+            height: 150px;
+            width: 360px;
+            
+            background-color: rgb(249, 194, 54);
+            /* margin-top: 10px;  */
+            float: left;
+        }
+        .aa5{
+            height: 150px;
+            width: 360px;
+            
+            background-color:blueviolet;
+            /* margin-top: 10px;  */
+            float: right;
+        }
+        #a1{
+            height: 300px;
+            width: 730px;
+            background-color: darkgreen;
+             /* margin-right: 20px;
+            margin-top: 30px;  */
+        }
+        #a2{
+            height: 300px;
+            width: 730px;
+            
+             /* margin-right: 20px;
+            margin-top: 20px;  */
+        }
+        #aa2{
+            height: 150px;
+            width: 360px;
+           
+            background-color: blue;
+            float: left;
+        }
+        #aa3{
+            height: 150px;
+            width: 360px;
+            
+            background-color: red;
+            float: right;
+        }
+        #aa4{
+            height: 150px;
+            width: 360px;
+            
+            background-color: rgb(249, 194, 54);
+             /* margin-top: 10px;  */
+            float: left;
+        }
+        #aa5{
+            height: 150px;
+            width: 360px;
+            
+            background-color:blueviolet;
+             /* margin-top: 10px;  */
+            float: right;
+        }
+        
+        /* *{
+            text-align: center;
+            font-size: larger;
+        } */
+        @media screen and (min-width:50px) and (max-width:431px)
+{
+    #aa5,#aa4,#aa3,#aa2,#a2,#a1,.a1,.a2,.aa2,.aa3,.aa4,.aa5,.a,.b,.main
+    {
+        width: 100%;
+        
+        
+    }
+}
+@media screen and (min-width:431px) and (max-width:630px)
+{
+    #aa5,#aa4,#aa3,#aa2,#a2,#a1,.a1,.a2,.aa3,.aa4,.aa5,.a,.b,.aa2,.main
+    {
+        width: 50%;
+    }
+
+}
+@media screen and (min-width:631px) and (max-width:930px)
+{
+    
+    #aa5,#aa4,#aa3,#aa2,#a2,#a1,.a1,.a2,.aa3,.aa4,.aa5,.a,.b
+    {
+        width: 33%;
+    }
+
+}
+@media screen and (min-width:930px) and (max-width:1020px)
+{
+    
+    #aa5,#aa4,#aa3,#aa2,#a2,#a1,.a1,.a2,.aa3,.aa4,.aa5,.a,.b
+    {
+        width: 25%;
+    }
+
+}
+@media screen and (min-width:1021px) and (max-width:1030px)
+{
+    
+    #aa5,#aa4,#aa3,#aa2,#a2,#a1,.a1,.a2,.aa3,.aa4,.aa5,.a,.b
+    {
+        width: 16.6%;
+    }
+
+}
+@media screen and (min-width:1031px) and (max-width:1220px)
+{
+    
+    #aa5,#aa4,#aa3,#aa2,#a2,#a1,.a1,.a2,.aa3,.aa4,.aa5,.a,.b
+    {
+        width: 20%;
+    }
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="a">
+            <div class="a1">600X400</div>
+            <div class="a2">
+                <div class="aa2">300x210</div>
+                <div class="aa3">300x210</div>
+                <div class="aa4">300x210</div>
+                <div class="aa5">300x210</div>
+            </div>
+        </div>
+        <div class="b">
+            <div id="a2">
+                <div id="aa2">300x210</div>
+                <div id="aa3">300x210</div>
+                <div id="aa4">300x210</div>
+                <div id="aa5">300x210</div>
+            </div>
+            <div id="a1">600X400</div>
+
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>
