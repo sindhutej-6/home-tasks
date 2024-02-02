@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <title>Project Webpage</title>
+    <style>
+        
+        #space{
+            margin-left: 10px;
+            margin-top: 18px;
+            width: 20px;
+        }
+        #search{
+            padding-left: 30px;
+            margin-left: 10px;
+            margin-top: 10px;
+            height: 40px;
+        }
+        #bell{
+            margin-left: 80px;
+            margin-top: 18px;
+        }
+        #on{
+            margin-left: 20px;
+            border-radius:20px;
+            height: 40px;
+            width: 40px;
+            margin-bottom: 5px;
+        }
+        #title{
+            background-color:blueviolet;
+            height: 180px;
+        
+        }
+        .btn{
+            float: right;
+            position: relative;
+            bottom: 35px; 
+            right: 30px;
+            background-color: white;
+        }
+       #b{
+            background-color: lightgray;
+            height: 500px;
+            
+        }
+        #a1{
+            margin-left: 47px;
+            height: 160px;
+            width: 320px;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: white;
+            position: relative;
+            bottom: 75px;
+        }
+        #ic{
+            height: 40px;
+            width: 40px;
+            background-color: rgb(213, 235, 253);
+            float: right;
+            position: relative;
+            bottom: 130px;
+            border-radius: 5px;
+        }
+        #bo{
+            background-color: white;
+            height: 390px;
+            margin: 47px;
+            width: 1420px;
+            position: absolute;
+            top: 300px;
+            border-radius: 5px;
+        }
+        #e{
+            
+            height: 1px;
+            box-shadow: 1px 1px 2px rgb(160, 160, 160) ;
+            
+         }
+         #icon{
+            height: 50px;
+            width: 50px;
+            border-radius: 2px;
+            outline: 1px 1px solid black;
+         }
+         #p{
+            background-color: blueviolet;
+         }
+         #im1{
+            height: 32px;
+            width: 32px;
+            border-radius: 16px;
+            outline: 1px solid white;
+            background-color: aqua;
+            float: left;
+            position: relative;
+         }
+         #im2{
+            height: 32px;
+            width: 32px;
+            border-radius: 16px;
+            outline: 1px solid white;
+            background-color: rgb(3, 32, 32);
+            float: left;
+            position: relative;
+            right: 15px;
+         }
+         #im3{
+            height: 32px;
+            width: 32px;
+            border-radius: 16px;
+            outline: 1px solid white;
+            background-color: rgb(17, 228, 102);
+            float: left;
+            position: relative;
+            right: 30px;
+         }
+         #im4{
+            height: 32px;
+            width: 32px;
+            border-radius: 16px;
+            outline: 1px solid white;
+            background-color: blueviolet;
+            float: left;
+            position: relative;
+            right: 45px;
+            color: white;
+            padding: 3px;
+         }
+         #dr{
+            height: 30px;
+            width: 30px;
+            padding-left: 5px;
+            padding-top: 3px;
+            box-shadow: 1px 1px 3px grey;
+            border-radius: 2px;
+            float: left;
+         }
+         #dv{
+            height: 30px;
+            width: 30px;
+            padding-left: 5px;
+            padding-top: 2px;
+            background-color: blueviolet;
+            box-shadow: 1px 1px 3px grey;
+            border-radius: 2px;
+            float: left;
+         }
+         #di{
+            height: 20px;
+            width: 20px;
+            
+         }
+         .image{
+            height: 32px;
+            width: 32px;
+            border-radius: 16px;
+         }
+         .btn1{
+            border-style: hidden;
+            color: white;
+            border-radius: 5px;
+            background-color: rgb(27, 234, 234);
+         }
+         
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div  id="space"class="col-1 ">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="col-2">
+                <form>
+                    <input type="text" placeholder="search" id="search">
+                </form>
+            </div>
+            <div class="col-8" >
+            </div>
+            <div class="col-1" id="bell">
+                <i class="fa-regular fa-bell"></i>
+                <img id="on" src="/Bootstrap files/m3.png">
+            </div>   
+        </div>
+        <div class="row">
+            <div class="col-12" id="title">
+                <h3 style="color: white; margin-left: 35px; margin-top: 50px;">Projects</h3>
+                <form>
+                    <button class="btn">Create New Project</button>
+                </form>
+            </div>
+        </div>
+        <div class="row " id="b">
+            <div class="row">
+                <div class="col-3" id="a1">
+                    <h6>Projects</h6>
+                    <h1 style="margin-top: 20px;">18</h1>
+                    <p><b>2</b> Completed</p>
+                    <div id="ic">
+                        <i class="fa-solid fa-briefcase" style="color: #7e5ede;font-size: 25px; padding: 8px;"></i>
+                    </div>
+                </div>
+                <div class="col-3" id="a1">
+                    <h6>Active Task</h6>
+                    <h1 style="margin-top: 20px;">132</h1>
+                    <p><b>28</b> Completed</p>
+                    <div id="ic">
+                        <i class="fa-solid fa-bars" style="color: #7e5ede;font-size: 25px; padding: 8px;"></i>
+                    </div>
+                </div>
+                <div class="col-3" id="a1">
+                    <h6>Teams</h6>
+                    <h1 style="margin-top: 20px;">12</h1>
+                    <p><b>1</b> Completed</p>
+                    <div id="ic">
+                        <i class="fa-brands fa-x-twitter" style="color: #7e5ede;font-size: 25px; padding: 8px;"></i>
+                    </div>
+                </div>
+                <div class="col-3" id="a1">
+                    <h6>Productivity</h6>
+                    <h1 style="margin-top: 20px;">76%</h1>
+                    <p><b>5%</b> Completed</p>
+                    <div id="ic">
+                        <i class="fa-brands fa-xbox" style="color: #7e5ede;font-size: 25px; padding: 8px;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="bo">
+                <div class="row">
+                    <div class="col-12 ">
+                        <h5 style="margin: 5px;">Active Projects</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 ">
+                        <p style="margin: 5px;font-size: 14px;">PROJECT NAME</p>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <p style="font-size: 14px;">HOURS</p>
+                    </div>
+                    <div class="col-1  ">
+                        <p style="font-size: 14px;">PRIORITY</p>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <p style="font-size: 14px;">MEMBERS</p>
+                    </div>
+                    <div class="col-1 ">
+                        <p style="font-size: 14px;">PROGRESS</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div  id="e"class="col-12 ">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-3 ">
+                        <div id="dr"><img src="/Bootstrap files/dropbox_889176.png" id="di"></div><h6 style="margin-left: 10px;font-size: 14px;display: inline;">Dropbox Design System</h6>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <p style="font-size: 14px;color:rgb(79, 79, 79);">34</p>
+                    </div>
+                    <div class="col-1  ">
+                        <p style="font-size: 14px;"></p>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <div id="im1"><img src="/Bootstrap files/m.png"class="image"></div>
+                        <div id="im2"><img src="/Bootstrap files/m4.png"class="image"></div>
+                        <div id="im3"><img src="/Bootstrap files/m3.png"class="image"></div>
+                        <div id="im4">+5</div>
+                        
+                    </div>
+                    <div class="col-1 ">
+                        <p style="font-size: 14px;display: inline;">15%</p>
+                        <div class="progress-stacked" style="height: 8px;width: 150px;position: relative;bottom: 15px;left: 35px;" >
+                            <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="250" aria-valuemin="0" aria-valuemax="50" style="width: 15%;height: 20px;">
+                                <div class="progress-bar" id="p"></div>
+                              </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="row">
+                    <div  id="e"class="col-12 ">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-3 ">
+                        <div id="dr"><img src="/Bootstrap files/design_9901093.png" id="di"></div><h6 style="margin-left: 10px;font-size: 14px;display: inline;">Stack Team UI Design</h6>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <p style="font-size: 14px;color:rgb(79, 79, 79);">47</p>
+                    </div>
+                    <div class="col-1  ">
+                        <p style="font-size: 14px;"></p>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <div id="im1"><img src="/Bootstrap files/m.png"class="image"></div>
+                        <div id="im2"><img src="/Bootstrap files/m4.png"class="image"></div>
+                        <div id="im3"><img src="/Bootstrap files/m3.png"class="image"></div>
+                        <div id="im4">+5</div>
+                        
+                    </div>
+                    <div class="col-1 ">
+                        <p style="font-size: 14px;display: inline;">35%</p>
+                        <div class="progress-stacked" style="height: 8px;width: 150px;position: relative;bottom: 15px;left: 35px;" >
+                            <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="250" aria-valuemin="0" aria-valuemax="50" style="width: 35%;height: 20px;">
+                                <div class="progress-bar" id="p"></div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div  id="e"class="col-12 ">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-3 ">
+                        <div id="dr"><img src="/Bootstrap files/github.png" id="di"></i></div><h6 style="margin-left: 10px;font-size: 14px;display: inline;">GitHub Satellite</h6>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <p style="font-size: 14px;color:rgb(79, 79, 79);">120</p>
+                    </div>
+                    <div class="col-1  ">
+                        <form>
+                            <button class="btn1">Low</button>
+                        </form>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <div id="im1"><img src="/Bootstrap files/m.png"class="image"></div>
+                        <div id="im2"><img src="/Bootstrap files/m4.png"class="image"></div>
+                        <div id="im3"><img src="/Bootstrap files/m3.png"class="image"></div>
+                        <div id="im4">+5</div>
+                        
+                    </div>
+                    <div class="col-1 ">
+                        <p style="font-size: 14px;display: inline;">75%</p>
+                        <div class="progress-stacked" style="height: 8px;width: 150px;position: relative;bottom: 15px;left: 35px;" >
+                            <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="250" aria-valuemin="0" aria-valuemax="50" style="width: 75%;height: 20px;">
+                                <div class="progress-bar" id="p"></div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div  id="e"class="col-12 ">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-3 ">
+                        <div id="dr"><img src="/Bootstrap files/3d-modeling.png" id="di"></div><h6 style="margin-left: 10px;font-size: 14px;display: inline;">3D character Modelling</h6>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <p style="font-size: 14px;color:rgb(79, 79, 79);">69</p>
+                    </div>
+                    <div class="col-1  ">
+                        <p style="font-size: 14px;"></p>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <div id="im1"><img src="/Bootstrap files/m.png"class="image"></div>
+                        <div id="im2"><img src="/Bootstrap files/m4.png"class="image"></div>
+                        <div id="im3"><img src="/Bootstrap files/m3.png"class="image"></div>
+                        <div id="im4">+5</div>
+                        
+                    </div>
+                    <div class="col-1 ">
+                        <p style="font-size: 14px;display: inline;">63%</p>
+                        <div class="progress-stacked" style="height: 8px;width: 150px;position: relative;bottom: 15px;left: 35px;" >
+                            <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="250" aria-valuemin="0" aria-valuemax="50" style="width: 63%;height: 20px;">
+                                <div class="progress-bar" id="p"></div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div  id="e"class="col-12 ">
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-3 ">
+                        <div id="dv"><img src="/Bootstrap files/email_3889040.png" id="di"></div><h6 style="margin-left: 10px;font-size: 14px;display: inline;">WebApp Design System</h6>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <p style="font-size: 14px;color:rgb(79, 79, 79);">108</p>
+                    </div>
+                    <div class="col-1  ">
+                        <p style="font-size: 14px;"></p>
+                    </div>
+                    <div class="col-2 offset-1 ">
+                        <div id="im1"><img src="/Bootstrap files/m4.png"class="image"></div>
+                        <div id="im2"><img src="/Bootstrap files/m.png"class="image"></div>
+                        <div id="im3"><img src="/Bootstrap files/m3.png"class="image"></div>
+                        <div id="im4">+5</div>
+                        
+                    </div>
+                    <div class="col-1 ">
+                        <p style="font-size: 14px;display: inline;">100%</p>
+                        <div class="progress-stacked" style="height: 8px;width: 150px;position: relative;bottom: 15px;left: 35px;" >
+                            <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="250" aria-valuemin="0" aria-valuemax="50" style="width: 100%;height: 20px;">
+                                <div class="progress-bar bg-success" ></div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    
+</body>
+</html>

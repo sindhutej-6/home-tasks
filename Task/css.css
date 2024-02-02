@@ -1,0 +1,56 @@
+.a{
+    background-color: lightgray;
+   
+}
+.b{
+    font-weight: 400;
+}
+#a{
+    height: 80px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px ;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#i{
+    font-size: 40px;
+    position: relative;
+    top: 18px;
+}
+#ii{
+    font-size: 40px;
+    float: right;
+    position: relative;
+    right: 5px;
+    top: 18px;
+}
+.s{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 5px;
+    color: black;
+}
+.r{
+    float: right;
+    font-weight: 100;
+    position: relative;
+    top: 40px;
+    left: 35px;
+    color: black;
+}
+.ls{
+    
+    position: relative;
+    top: 10px;
+    left: 5px;
+    color: black;
+}
+.l{
+   
+    font-weight: 100;
+    position: relative;
+    top: 10px;
+    color: black;
+}
