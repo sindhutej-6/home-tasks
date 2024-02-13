@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Javascript</title>
+</head>
+<body>
+    <button onclick="alert('This is inline Javascript')">Inline</button>
+    <button onclick="myFun()">Internal</button>
+    <button onclick="myFunction()">External</button>
+</body>
+<script>
+    function myFun(){
+        alert("This is a Internal Javascript")
+    }
+</script>
+<script src="external.js"></script>
+</html>
+<!-- we have a three ways to write the javascript one is inline= within the same html tag, internal= by using the script tag we can write javascript in body tag or head tag
+but we should use script tag in body tag because script should be load after the html .
+external javascript= we link the external file to present html by using src attribute in the scripg tag
+script tag can be write either in head or body or after the body tag or after the html tag  -->

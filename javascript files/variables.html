@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables in Javascript</title>
+</head>
+<body>
+    <script>
+        //variable- is used to store a value. We have a three keywords to declare a variable 
+        // var - is a keyword, it is global scope(whereever we can access the variable ), we can re-assign the variable, we can re-declare the variable
+        var name = "Tej";
+        console.log(name);
+        //re-assigning a value
+        name = "kiyomi";
+        console.log(name);
+        //re-declaring a value
+        var name = "Tejaswi";
+        console.log(name);
+        //let - is a keyword, it is a block scope(it means we can access the variable within the block), we can re-assign the variable, we can't re-declare the variable
+        let roll=23;
+        console.log(roll);
+        //re-assigning a valud
+        roll = 24;
+        console.log(roll);
+        {
+            let r=25;
+        }
+        //console.log(r)// it gets error
+        //const - is a keyword, it is a constant, we can't re-assign the value, we can't re- declare the value, it is a block scope
+        const college ="ACET";
+        console.log(college);
+        // college="ACE" // it gets error
+        //const college = 'Ac'
+        {
+            const n ="tejaswi";
+        }
+        //console.log(n) // it gets error
+
+
+        
+    </script>
+</body>
+</html>

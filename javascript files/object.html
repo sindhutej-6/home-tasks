@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object in JS</title>
+</head>
+<body>
+    <script>
+        let obj = {
+            name: "Tejaswi",
+            pinno: "21249-CCN-023",
+            college : "ACET"
+        }
+        console.log(obj)
+    // to access the key value it can be done by two methods i.e., (.) or ([])
+       console.log(obj.college)
+       console.log(obj['pinno'])
+    // to add a new key pair
+       obj.marks = 500
+       console.log(obj)
+    // to update the key value
+       obj.college = "APC"
+       console.log(obj)
+    // to remove the key pair by delete
+       delete obj.marks
+       console.log(obj)
+    // to check the key in object we use in operator
+       console.log('name' in obj)
+       
+
+    </script>
+    
+</body>
+</html>
