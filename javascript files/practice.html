@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="demo">Hello</p>
+    <!-- <p id="demo">Hello</p>
     <p id="d">Welcome to <b>my</b> webpage</p>
     <script>
         let x="tej";
@@ -21,7 +21,30 @@
     <button type="button" onclick="window.alert('hai')">Window Alert</button>
     <button type="button" onclick="alert('Hai')">Alert</button>
     <button type="button" onclick="document.getElementById('d').innerHTML='Welcome to the webpage'">Click It</button>
-    <button type="button" ></button>
+    <button type="button" ></button> -->
+    <!-- <script>
+        function vote(){
+            let age = parseInt(prompt('Enter Your age'))
+            if (age >= 18){
+                document.write('You are elligible to vote')
+            }
+            else {
+                document.write('You are not elligible to vote')
+            }
+
+        }
+    </script>
+    <button type="button" onclick="vote()">Check Age</button> -->
+    <button onclick="fun()">Try It</button>
+    <p id="demo"></p>
+    <script>
+        function fun(){
+            let text = "Hello world. Welcome to My world"
+            text= text.replaceAll("world", "World")
+            document.getElementById('demo').innerHTML=text
+        }
+        
+    </script>
 
 </body>
 </html>
