@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Arrow function</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("Enter A value"))
+        let b = parseInt(prompt("Enter B value"))
+        document.write("Entered Values are: "+a+" "+b+"<br>")
+        const mul = (x, y) => x * y;
+        const div = (x, y) => x / y;
+        const result = mul(a,b)
+        const result1 = div(a,b)
+        
+
+        document.write("Multiplication of two numbers: "+result+"<br>")
+        document.write("Division of two numbers: "+result1+"<br>")
+
+    </script>
+    
+</body>
+</html>

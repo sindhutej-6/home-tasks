@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Task</title>
+</head>
+<body>
+    <script>
+        //even num
+        let sume=0,odds =0 
+        let a = prompt("Enter the array elements")
+        let b = a.split(",")
+        var c=[]
+        for(let i =0;i<b.length;i++){
+            c[i]=parseInt(b[i])
+        }
+        document.write(c+"<br>")
+        for(let i=0;i<c.length;i++){
+            if(c[i]%2==0){
+                sume = sume + c[i]   
+            }
+            else{
+                odds = odds + c[i]
+            }
+        }
+        
+        document.write("Sum of Even Numbers: "+sume+"<br>")
+        document.write("Sum of odd Numbers: "+odds+"<br>")
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Task</title>
+</head>
+<body>
+    <table border="2px">
+        <tr>
+            <th>Course Name</th>
+            <th>Course Number</th>
+            <th>Course Fees</th>
+            <th>Place</th>
+        </tr>
+        <tbody id="t"></tbody>
+        
+    </table>
+        <script>
+           let data =[
+            { 
+                "CourseName": "HTML",
+                "CourseNumber": 23423,
+                "CourseFees" : 235,
+                "Place":"dwp"
+            },
+            { 
+                "CourseName": "CSS",
+                "CourseNumber": 65687,
+                "CourseFees" : 567,
+                "Place":"dwp"
+            },
+            { 
+                "CourseName": "CSS",
+                "CourseNumber": 65687,
+                "CourseFees" : 567,
+                "Place":"dwp"
+            },
+            { 
+                "CourseName": "CSS",
+                "CourseNumber": 65687,
+                "CourseFees" : 567,
+                "Place":"dwp"
+            },
+            { 
+                "CourseName": "Javascript",
+                "CourseNumber": 67845,
+                "CourseFees" : 7656,
+                "Place":"dwp"
+            },
+           ]
+           for(let i=0; i<data.length;i++){
+                const tb = document.getElementById("t")
+                const table_r = document.createElement("tr")
+                t.appendChild(table_r)
+                const table_d = document.createElement("td")
+                table_r.appendChild(table_d)
+                const table_d1 = document.createElement("td")
+                table_r.appendChild(table_d1)
+                const table_d2 = document.createElement("td")
+                table_r.appendChild(table_d2)
+                const table_d3 = document.createElement("td")
+                table_r.appendChild(table_d3)
+                const table_r1 = document.createElement("tr")
+                table_d.innerText = data[i].CourseName
+                table_d1.innerText = data[i].CourseNumber
+                table_d2.innerText = data[i].CourseFees
+                table_d3.innerText = data[i].Place
+           }
+        
+        </script>
+    
+    
+</body>
+</html>

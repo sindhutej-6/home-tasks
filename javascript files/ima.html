@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <script>
+        const NewImage = document.createElement("img")
+        const bdy = document.body
+        bdy.appendChild(NewImage)
+        NewImage.setAttribute("src","heart.png")
+        NewImage.style.cssText=`height:100px;
+                                width:100px;
+                                margin:100px;`
+        const NewBtn = document.createElement("button")
+        bdy.appendChild(NewBtn)
+        NewBtn.setAttribute("id","btn")
+        NewBtn.innerText="click me"  
+        NewBtn.addEventListener("click", fun1)
+        function fun1(){
+            NewImage.setAttribute("src","heart (1).png")
+            NewImage.style.cssText=`height:100px;
+                                    width:100px;
+                                    margin:100px;`
+        }  
+        NewBtn.addEventListener("dblclick",fun2)
+        function fun2(){
+            NewImage.setAttribute("src","heart.png")
+            NewImage.style.cssText=`height:100px;
+                                    width:100px;
+                                    margin:100px;`
+        }    
+
+    </script>
+    
+
+    
+</body>
+</html>

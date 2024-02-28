@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyEvents in js</title>
+</head>
+<body>
+    <p id="a"></p>
+    KeyDown: 
+    <input type="text" onkeydown="getbg(this.value)"><br>
+    KeyUP:
+    <input type="text" onkeyup="getbg(this.value)"><br>
+    KeyPress:
+    <input type="text" onkeypress="getbg(this.value)">
+    <script>
+        function getbg(value){
+            let x = document.getElementById('a')
+            x.innerText = value
+        }
+    </script>
+    
+
+    
+</body>
+</html>

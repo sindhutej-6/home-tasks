@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color Task</title>
+    <style>
+        #btn{
+            position: relative;
+            top: 200px;
+            left: 600px;
+            height: 100px;
+            width: 200px;
+            border-style: hidden;
+            border-radius: 15px;
+            animation: anime;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            
+        }
+        @keyframes anime{
+            0%{
+                background-color: aqua;
+                /* border-color: blanchedalmond; */
+                box-shadow: 10px 10px 20px aqua ;
+                -webkit-filter: blur("30px");
+                
+            }
+            10%{
+                background-color: rgb(0, 4, 255);
+                /* border-color: rgb(179, 115, 19); */
+                box-shadow: 10px 10px 20px rgb(0, 4, 255) ;
+                -webkit-filter: blur("30px");
+            }
+            20%{
+                background-color: rgb(68, 255, 0);
+                /* border-color: rgb(91, 24, 206); */
+                box-shadow: 10px 10px 20px rgb(68, 255, 0);
+                -webkit-filter: blur("30px");
+                
+            }
+            30%{
+                background-color: rgb(255, 0, 153);
+                /* border-color: rgb(7, 113, 205); */
+                box-shadow: 10px 10px 20px rgb(255, 0, 153);
+                -webkit-filter: blur("30px");
+                
+            }
+            40%{
+                background-color: rgb(255, 42, 0);
+                /* border-color: rgb(215, 8, 201); */
+                box-shadow: 10px 10px 20px rgb(255, 42, 0);
+                -webkit-filter: blur("30px");
+            }
+            50%{
+                background-color: rgb(2, 4, 45);
+                /* border-color: rgb(84, 71, 52); */
+                box-shadow: 10px 10px 20px rgb(2, 4, 45);
+                -webkit-filter: blur("30px");
+            }
+            60%{
+                background-color: rgb(0, 4, 255);
+                /* border-color: rgb(8, 167, 188); */
+                box-shadow: 10px 10px 20px rgb(0, 4, 255);
+                -webkit-filter: blur("30px");
+            }
+            70%{
+                background-color: rgb(0, 136, 255);
+                /* border-color: rgb(209, 74, 180); */
+                box-shadow: 10px 10px 20px rgb(0, 136, 255);
+                -webkit-filter: blur("30px");
+            }
+            80%{
+                background-color: rgb(255, 0, 123);
+                /* border-color: rgb(6, 126, 96); */
+                box-shadow: 10px 10px 20px rgb(255, 0, 123);
+                -webkit-filter: blur("30px");
+            }
+            90%{
+                background-color: rgb(242, 255, 0);
+                /* border-color: rgb(77, 210, 95); */
+                box-shadow: 10px 10px 20px rgb(242, 255, 0);
+                -webkit-filter: blur("30px");
+            }
+            100%{
+                background-color: rgb(221, 221, 222);
+                /* border-color: rgb(203, 181, 9); */
+                box-shadow: 10px 10px 20px rgb(221, 221, 222);
+                -webkit-filter: blur("30px");
+            }
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    
+    <input type="button" onclick="changeColor()" value="ChangeColor" id="btn">
+    
+    <script>
+        
+        function changeColor()
+        {  
+           const bdy = document.body
+           let x = Math.floor(Math.random() * 256);
+           let y = Math.floor(Math.random() * 256);
+           let z = Math.floor(Math.random() * 256);
+           let colour = "rgb("+ x+','+y+','+z+")";
+           console.log(colour)
+           bdy.style.backgroundColor = colour 
+        }
+        
+    </script>
+
+    
+</body>
+</html>

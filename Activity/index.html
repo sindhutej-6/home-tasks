@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Operations</title>
+    <style>
+        #title{
+            font-size: 30px;
+            margin-left: 30px;
+        }
+        #btn{
+            float: right;
+            color: white;
+            background-color: aqua;
+            border-style: none;
+            height: 50px;
+            width: 12%;
+            border-radius:15px;
+            font-size: 20px;
+        }
+        #table-t{
+           
+            border-collapse: collapse;
+            width: 94%;
+            margin: 40px;
+        }
+        th{
+            width:400px;
+            height: 50px;
+            text-align: left;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <span id="title">Product <b>Details</b></span>
+    
+    <button id="btn" type="button" onclick="addRow()">+ Add New</button>
+    <table id="table-t" border="2px">
+        <tbody id="t_data">
+            <tr>
+            <th >Product ID</th>
+            <th >Name</th>
+            <th >Price</th>
+            <th >Actions</th>
+            </tr>
+                
+            </form>
+        </tbody>
+    </table>
+        
+        
+<script>
+    let data = [
+        {
+            p_id:456789,
+            name:"Realme mobile",
+            price:16000,
+        },
+        {
+            p_id:123456,
+            name:"MI mobile",
+            price:18000,
+        },
+        {
+            p_id:365648,
+            name:"Vivo mobile",
+            price:20000,
+        }
+    ]
+    for(let i=0;i<data.length;i++){
+            const tb = document.getElementById("t_data")
+            const table_r = document.createElement("tr")
+            t_data.appendChild(table_r)
+            const table_d = document.createElement("td")
+            table_d.style.cssText=`padding-left:10px;
+                                   height:50px`
+            table_r.appendChild(table_d)
+            const table_d1 = document.createElement("td")
+            table_d1.style.cssText=`padding-left:10px`
+            table_r.appendChild(table_d1)
+            const table_d2 = document.createElement("td")
+            table_d2.style.cssText=`padding-left:10px`
+            table_r.appendChild(table_d2)
+            const table_d3 = document.createElement("td")
+            table_d3.style.cssText=`padding-left:10px`
+            table_r.appendChild(table_d3)
+            
+            table_d.innerText = data[i].p_id
+            table_d1.innerText = data[i].name
+            table_d2.innerText = data[i].price
+            table_d3.innerHTML = '<button type="button" onclick="editRow(this)" style="background-color:transparent;border-style:none" ><i class="fa-solid fa-pencil" style="color: #FFD43B;font-size:20px;margin-right:40px"></i></button><button type="button" style="background-color:transparent;border-style:none" onclick="deleteRow(this)"><i class="fa-regular fa-trash-can" style="color:red;font-size:20px"></i></button>'
+    }
+    function addRow(){
+            const tb = document.getElementById("t_data")
+            const table_r = document.createElement("tr")
+            t_data.appendChild(table_r)
+            const table_d = document.createElement("td")
+            table_d.style.cssText=`padding-left:10px;
+                                   height:50px`
+            const inpu = document.createElement("input")
+            inpu.setAttribute("type","text")
+            table_d.append(inpu)
+            table_r.appendChild(table_d)
+            const table_d1 = document.createElement("td")
+            table_d1.style.cssText=`padding-left:10px`
+            const inpu1 = document.createElement("input")
+            let b = table_d1.append(inpu1)
+            table_r.appendChild(table_d1)
+            const table_d2 = document.createElement("td")
+            table_d2.style.cssText=`padding-left:10px`
+            const inpu2 = document.createElement("input")
+            let c= table_d2.append(inpu2)
+            table_r.appendChild(table_d2)
+            const table_d3 = document.createElement("td")
+            table_d3.style.cssText=`padding-left:10px`
+            table_r.appendChild(table_d3)
+            
+           
+            table_d3.innerHTML = '<button type="button" onclick="editRow(this)" style="background-color:transparent;border-style:none" ><i class="fa-solid fa-pencil" style="color: #FFD43B;font-size:20px;margin-right:40px"></i></button><button type="button" style="background-color:transparent;border-style:none" onclick="deleteRow(this)"><i class="fa-regular fa-trash-can" style="color:red;font-size:20px"></i></button>'
+    }
+    function editRow(btn) {
+            var row = btn.parentNode.parentNode;
+            var cells = row.getElementsByTagName("td");
+            for (var i = 0; i < cells.length - 1; i++) {
+                var input = document.createElement("input");
+                input.type = "text";
+                input.value = cells[i].innerText;
+                cells[i].innerText = "";
+                cells[i].appendChild(input);
+            }
+            btn.innerHTML = "<button onclick='saveRow(this)' style='border: none;background-color: white;'><i class='fa-regular fa-floppy-disk' style='color: #04f108;margin-right:40px'></i></button>"
+            btn.setAttribute("onclick", "saveRow(this.value)");
+        }
+        function saveRow(btn) {
+            var row = btn.parentNode.parentNode;
+            var cells = row.getElementsByTagName("td");
+            for (var i = 0; i < cells.length - 1; i++) {
+                var input = cells[i].querySelector("input");
+                cells[i].innerText = input.value;
+            }
+            btn.innerHTML = "<button onclick='editRow(this)' style='border: none;background-color: white;'><i class='fa-solid fa-pencil' style='color: #FFD43B;font-size:20px;margin-right:40px'></i></button>"
+            btn.setAttribute("onclick", "editRow(this)");
+        }
+        function deleteRow(btn) {
+            confirm('Do you want to delete the Record?');
+            var row = btn.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+</script>
+   
+    
+    
+</body>
+</html>

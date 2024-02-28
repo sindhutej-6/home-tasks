@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    
+    <script>
+        let str = "Mahindhra Singh Dhoni"
+        let str1 = "Virat kohili"
+        let str2 = "   virat Mahi"
+        function strmethod(str_name){
+            document.write("<b>"+str_name+"</b><br>")
+        }
+        // original string
+        strmethod("Original String: "+str)
+       
+        //substr
+        strmethod("substr method of str: "+str.substr(0,9))
+
+        //substring
+        strmethod("Substring method of str: "+str1.substring(0,6))
+        
+
+        //replace
+        strmethod("Before Replacing: "+str2)
+        strmethod("After replacing :"+str2.replace("Mahi" , "Kohili"))
+
+        //search method
+        strmethod("Original String: "+str)
+        strmethod("Searching of the string:"+str.search("Dhoni"))
+
+        //toLocaleLowercase
+        strmethod("Before converting into LowerCase: "+str1)
+        strmethod("After Converting into Lowercase: "+str1.toLocaleLowerCase())
+
+        //toLocaleuppercase
+        strmethod("Before converting into UpperCase: "+str)
+        strmethod("After Converting into Uppercase: "+str.toLocaleUpperCase())
+
+        //indexOf 
+        strmethod("Original String: "+str)
+        strmethod("indexOf: "+str.indexOf('i'))
+
+        //includes
+        if(str.includes("z") == true){
+                  strmethod("Given String is included")
+        }else{
+            strmethod("Given String is  not included")
+        }
+
+        //slice
+        strmethod("Before slicing: "+str2)
+        strmethod("After slicing : "+str2.slice(8,13))
+
+        //Concat
+        strmethod("Before Concatnation String1: "+str+" ,String2:"+str1)
+
+        strmethod("Concating of string1+string2: "+str.concat(str1))
+
+        //lastIndexOf
+        strmethod("String: "+str)
+        strmethod("lastIndexof: "+str.lastIndexOf('i'))
+
+        //charCodeAt
+        strmethod("String: "+str)
+        strmethod("charCodeAt: "+str.charCodeAt(2))
+
+        //trim
+        strmethod("Before Trimming:"+str2)
+        strmethod("After Trimming:"+str2.trim())
+        
+        //charAt 
+        strmethod("String: "+str)
+        strmethod("charAt: "+str.charAt(4))
+
+        //ValueOf
+        strmethod("String: "+str)
+        strmethod("ValueOf: "+str.valueOf("Dhoni"))
+
+        
+        //split 
+        let str4 = "Vivo-IPL"
+        strmethod("String: "+str4)
+        strmethod("splitting of string:"+str4.split("-"))
+        
+        //toString
+        let num=123
+        let str5 = num.toString()
+        strmethod("Number: "+num)
+        strmethod("Converting num into string : "+str5)
+        strmethod("Checking the type: "+typeof(str5))
+
+        //match
+        strmethod("Original String: "+str)
+        if(str.match("Dhoni")!=null){
+            strmethod("Matching to the given String")
+        }
+        else{
+            strmethod("Not Matching to the given String")
+        }
+    </script>
+
+    
+</body>
+</html>

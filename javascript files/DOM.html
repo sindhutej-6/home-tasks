@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM in HTML</title>
+</head>
+<body>
+    <h1>By using id name</h1>
+    <a href="#" >Click Here</a>
+    <h1 id="demo">HEADING TAG</h1>
+    <script>
+        // to print entire document structure
+        // console.log(document)
+        const byID = document.getElementById("demo")
+        byID.style.color="lightgreen"
+        byID.style.fontSize="45px"
+        byID.style.fontFamily="Times New Roman"
+        byID.style.textShadow= " 2px 2px 5px black"
+    </script>
+    <h1>By using class name</h1>
+    <span class="sp">Hello Welcome to </span>
+    <span class="sp"> Javascript Tutorial</span>
+    <script>
+        const clsname = document.getElementsByClassName("sp")
+        // console.log(clsname)
+        // clsname.style.fontSize="50px"
+        clsname[0].style.color = "red"
+        clsname[1].style.color = "orange"
+        clsname[0].style.textShadow = "1px 1px 5px orange"
+        clsname[1].style.textShadow = "1px 1px 5px red"
+    </script>
+    <h1>By using tag name</h1>
+    <span class="tn">Hello Welcome to </span>
+    <p > Javascript Tutorial</p>
+    <p > Javascript Tutorial</p>
+    <p > Javascript Tutorial</p>
+    <script>
+        const tagname = document.getElementsByTagName("p")
+        // console.log(clsname)
+        // clsname.style.fontSize="50px"
+        tagname[0].style.color = "red"
+        tagname[1].style.color = "orange"
+        tagname[0].style.textShadow = "1px 1px 5px orange"
+        tagname[2].style.textShadow = "1px 1px 5px red"
+    </script>
+    <h1 > By using query selector</h1>
+    <p>hello </p>
+    <p>welcome</p>
+    <p>to my webpage</p>
+    <script>
+        // document.querySelector("#id or .class or tagname") it will applies the style to the first tag(i mentioned p ) so it applies the first one  p (javascript)
+        document.querySelector("p").style.backgroundColor="blue"
+    </script>
+    <h3>hello</h3>
+    <h3>welcome</h3>
+    <h3>to our webpage</h3>
+    <script>
+        // here i mentioned h3 in this page i don't write h3, now only i write it, so the border will be applicable to the first h3 tag 
+        document.querySelector("h3").style.border = "3px dashed red"
+        document.querySelector("span").style.border = "5px solid black"
+    </script>
+
+    <h1>By using query selectorall</h1>
+    <p>w3schools</p>
+    <p>javascript</p>
+    <h2 id="head2"> HTML </h2>
+    <h2 id="head2"> CSS</h2>
+    <h5 class="class2"> MangoDB</h5>
+    <h5 class="class2"> Python</h5>
+    <span>hello</span>
+    <span>welcome</span>
+    <script>
+        const x = document.querySelectorAll("#head2")
+        console.log(x)
+        x[0].style.border="1px dashed green"
+        x[1].style.border = "1px dashed green"
+        const y = document.querySelectorAll(".class2")
+        console.log(y)
+        y[0].style.textShadow = "5px 5px 10px grey"
+        y[1].style.textShadow = "5px 5px 10px grey"
+        y[0].style.fontSize = "60px"
+        y[1].style.fontSize = "60px"
+        const z = document.querySelectorAll("span")
+        console.log(z)
+        z[3].style.backgroundColor="orange"
+        z[4].style.backgroundColor="orange"
+    </script>
+
+
+    
+    
+</body>
+</html>

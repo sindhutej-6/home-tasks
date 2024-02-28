@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Task</title>
+    <style>
+        /* table{
+            border-collapse: collapse;
+        } */
+        td{
+            width: 500px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px" id="table">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <script>
+        let j=9
+        const x = document.querySelectorAll("td")
+        
+        console.log(x)
+        for(let i=0;i<10;i++){
+            x[i].innerText=j
+            j--
+        }
+    </script>
+    
+</body>
+</html>

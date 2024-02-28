@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    
+
+    <title>Task</title>
+</head>
+<body>
+    <!-- <h4 id="he">Original Colleges</h4>
+    <ul id="b">
+        <li class="co">AEC</li>
+        <li class="co">ACET</li>
+        <li class="co">ACOE</li>
+    </ul>
+    <button onclick="fun()"> Click</button>
+    <script>
+        function fun(){
+            const h = document.getElementById("he")
+            h.innerHTML="Changed Colleges"
+            const bo = document.getElementById("b")
+            // bo.style.fontWeight = "bold"
+            const c = document.getElementsByClassName("co")
+            c[0].innerHTML="<b>Aditya Engineering College</b>"
+            c[0].style.backgroundColor = "red"
+            c[1].innerHTML="<b>Aditya College of Engineering and Technology</b>"
+            c[1].style.border="2px solid black"
+            c[2].innerHTML="<b>Aditya College Of Engineering</b>"
+            c[2].style.fontFamily="Open Sans" 
+        }
+    </script> -->
+    <h1>By using query selectorall</h1>
+    <p>w3schools</p>
+    <p>javascript</p>
+    <h2 id="head2"> HTML </h2>
+    <h2 id="head2"> CSS</h2>
+    <h5 class="class2"> MangoDB</h5>
+    <h5 class="class2"> Python</h5>
+    <span>hello</span>
+    <span>welcome</span>
+    <script>
+        const x = document.querySelectorAll("#head2,.class2,span,p")
+        console.log(x)
+        for(let i=0;i<x.length;i++){
+            x[i].style.fontSize = "50px"
+            x[i].style.textShadow = "5px 5px 5px orange"
+        }
+        
+        
+    </script>
+    
+</body>
+</html>

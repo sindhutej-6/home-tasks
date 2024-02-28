@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color Task</title>
+</head>
+<body>
+    Enter the color name
+    <input type="text" onkeyup="getbg(this.value)">
+    <p id="a"></p>
+    <script>
+        const y = document.getElementById("a")
+        function getbg(value)
+        {
+            document.body.style.backgroundColor=value
+            y.innerText = value
+        }
+    </script>
+
+    
+</body>
+</html>

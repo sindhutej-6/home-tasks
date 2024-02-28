@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Animation</title>
+    <style>
+        .a{
+            background-image: linear-gradient(to right,rgb(120, 104, 120),rgb(155, 155, 202));
+        }
+        .b{
+            height: 120px;
+            width: 300px;
+            border: 5px solid  rgb(78, 78, 78);
+            border-radius: 20px;
+            margin-top: 100px;
+            float: left;
+        }
+        .bb{
+            height: 120px;
+            width: 300px;
+            border: 5px solid  rgb(78, 78, 78);
+            border-radius: 20px;
+            margin-top: 100px;
+            margin-left: 100px;
+            float: left;
+        }
+        .c{
+            height: 60px;
+            width: 10px;
+            border: 5px solid rgb(78, 78, 78);
+            border-radius: 10px;
+            float: left;
+            margin-top: 126px;
+            border-left-style:hidden;
+        }
+        #ic{
+            font-size: 60px;
+            position: relative;
+            left: 130px;
+            bottom: 90px;
+            color: white;
+
+        }
+        .battery-in{
+            height: 120px;
+            width: 300px;
+            border-radius: 20px;
+            animation-name: battery;
+            animation-duration: 10s;
+            animation-delay: 6s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            position: relative;
+            
+        }
+        .battery-out{
+            height: 120px;
+            width: 300px;
+            background-color: greenyellow;
+            border-radius: 20px;
+            animation-name: battery;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            animation-direction: reverse;
+            position: relative;
+            
+        }
+        @keyframes battery{
+            0%{
+                background-color: red;width: 10px;
+            }
+            25%{
+                background-color: orangered;width: 100px;
+            }
+            50%{
+                background-color: yellow;width: 200px;
+            }
+            90%{
+                background-color: greenyellow;width: 250px;
+            }
+            100%{
+                background-color:greenyellow;width: 300px;opacity: 0.7;
+            }
+        }
+        
+    </style>
+</head>
+<body class="a">
+    <center><h1>Battery Charge Animation Effect</h1></center>
+    <div class="b">
+        <div class="battery-in"></div>
+        <i class="fa-solid fa-bolt-lightning fa-rotate-270" id="ic"></i>
+    </div>
+        <div class="c"></div>
+    
+    <div class="bb">
+        <div class="battery-out"></div>
+        <i class="fa-solid fa-bolt-lightning fa-rotate-270" id="ic"></i>
+    </div>
+        <div class="c"></div>
+    
+    
+</body>
+</html>

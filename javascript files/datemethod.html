@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date method in js</title>
+</head>
+<body>
+    <center><h1>Date method in JS</h1></center>
+    <script>
+        const d = new Date()
+        document.write(d+"<br>")
+        document.write("Current time is :"+d.getTime()+"<br>");
+        
+        
+
+        let days = ["sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        let day = days[d.getDay()]
+        document.write("Current Day is :"+day+"<br>")
+        let months =["January","February","March","April","May","June","July","August","September","October","November","December"]
+        let m = months[d.getMonth()]
+        document.write("Current Month is: "+m+"<br>")
+        document.write("Current Year is :"+d.getFullYear()+"<br>")
+        document.write("Current seconds:  " +d.getSeconds()+"<br>")
+        document.write("current Minutes: "+d.getMinutes()+"<br>")
+        document.write("current Milliseconds:"+d.getMilliseconds()+"<br>")
+        document.write("current Timezone:"+d.getTimezoneOffset()+"<br>")
+        document.write("current UTC Date:"+d.getUTCDate()+"<br>")
+        document.write("current UTCDay:"+d.getUTCDay()+"<br>")
+        document.write("current hours:"+d.getHours()+"<br>")
+        document.write("current Milliseconds:"+d.getUTCHours()+"<br>")
+
+
+    </script>
+    
+</body>
+</html>

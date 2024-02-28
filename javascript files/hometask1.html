@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Task</title>
+    <style>
+        /* table{
+            border-collapse: collapse;
+        } */
+        td{
+            width: 500px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px" id="table">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <script>
+        let j=1
+        const x = document.querySelectorAll("td")
+        x[0].style.backgroundColor="green"
+        x[1].style.backgroundColor="red"
+        x[2].style.backgroundColor="blue"
+        x[3].style.backgroundColor="cyan"
+        x[4].style.backgroundColor="orange"
+        x[5].style.backgroundColor="lightgreen"
+        x[6].style.backgroundColor="skyblue"
+        x[7].style.backgroundColor="purple"
+        x[8].style.backgroundColor="grey"
+       
+        
+        console.log(x)
+        for(let i=0;i<x.length;i++){
+            x[i].innerText=j
+            j++
+        }
+    </script>
+    
+</body>
+</html>

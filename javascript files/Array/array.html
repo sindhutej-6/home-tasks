@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <h1>Array Methods</h1>
+    <ul>
+        <li>pop()</li>
+        <li>push()</li>
+        <li>shift()</li>
+        <li>unshift()</li>
+        <li>concat()</li>
+        <li>slice()</li>
+        <li>splice()</li>
+        <li>index()</li>
+        <li>sort()</li>
+    </ul>
+    <script>
+        let names = ['Teja','sindhu','madhu','surya','kumar','nihal']
+        let names1 = ['moksha','sai','nihal','niharika']
+
+        //pop() - used to remove the last element in the array
+        console.log(names)
+        console.log(names.pop())
+        console.log(names)
+
+        //push() - used to add a element at the last in the array
+        console.log(names1)
+        console.log(names1.push('venya'))
+        console.log(names1)
+
+        //shift()- is used to remove the first element
+        console.log(names)
+        console.log(names.shift())
+        console.log(names)
+
+        //unshift() - is used to add the element at the first 
+        console.log(names1)
+        console.log(names1.unshift('niha'))
+        console.log(names1)
+
+        //concat() - is used to add the two arrays 
+        let con = names.concat(names1)
+        console.log(con)
+        
+
+        //slice() - is used to slice the array by using start, end
+        let slic = names1.slice(1,4)
+        console.log(slic)
+
+        //splice()- array.splice(index value, no.of values want to be replace,"values"..n)
+        let spli = names.splice(0,1,"Tejaswi")
+        console.log(spli)
+        console.log(names)
+
+        //index() - it returns the index value of the mentioned element
+        console.log(names.indexOf('surya'))
+
+        //sort() - is used to sort the array
+        let sor = con.sort()
+        console.log(sor)
+
+
+    </script>
+    
+</body>
+</html>

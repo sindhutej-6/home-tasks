@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Task</title>
+    <style>
+        
+        #a{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    Enter Your Name:
+    <input type="text" onkeyup="geterror(this.value)" id="in">
+    <h4 id="e"></h4>
+    <h6 id="f"></h6>
+    <script>
+        const x = document.getElementById('e')
+        const y = document.getElementById('in')
+          function geterror(value){
+            for(let i=0;i<value.length;i++){
+                x.style.color ="red"
+                x.innerText = "Please enter more than three letters"
+                y.style.cssText =`border: 5px solid red;`
+                 
+                if(i>2){
+                    x.innerText =""
+                    
+                }
+            }
+        let length = document.getElementById('f')
+        let a = value.length
+        f.innerText=a
+        
+        
+        
+
+            
+          }
+    </script>
+    
+</body>
+</html>
+<!-- if (value =3){
+    x.style.color ="red"
+    x.innerText = "Please enter more than three letters"
+    y.style.borderColor ="red"  
+} -->

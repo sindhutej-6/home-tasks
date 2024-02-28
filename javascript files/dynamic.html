@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic webpage</title>
+</head>
+<body>
+    <script>
+        // creating a div element
+        const NewDiv = document.createElement("div")
+        const bdy = document.body
+        //adding div into body by this process
+        bdy.appendChild(NewDiv)
+        // writing heading tag by using innerText
+        NewDiv.innerHTML="<h1>Dynamically creating a div</h1>"
+        // applying the style to the div by using cssText =`values`
+        NewDiv.style.cssText=`height:200px;
+                              width:300px;
+                              background-color:skyblue;
+                              border:5px dashed purple;
+                              border-radius:5%;
+                              margin-bottom:10px;`
+        const NewSpan = document.createElement("span")
+        bdy.appendChild(NewSpan)
+        NewSpan.setAttribute("id","dist")
+        // creating a button element    
+        const NewBtn = document.createElement("button")
+        bdy.appendChild(NewBtn)
+        NewBtn.innerText= "click me"    
+        NewBtn.setAttribute("id","btn1")   
+        const myBtn = document.getElementById("btn1")
+        myBtn.addEventListener("mouseover", fun1)
+        function fun1(){
+            bdy.style.backgroundColor = "red"
+        }
+        myBtn.addEventListener("mouseleave", fun2)
+        function fun2(){
+            bdy.style.backgroundColor = "green"
+        }
+        myBtn.addEventListener("click", fun3)
+        function fun3(){
+            const d = new Date()
+            const a=document.write(d+"<br>")
+            NewSpan.innerText(a)
+        }
+       
+        
+                    
+    </script>
+    
+</body>
+</html>

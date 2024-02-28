@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JS</title>
+</head>
+<body>
+    <button onclick="sample()" onmouseleave="leave()" ondblclick="dbclick()">Click Me</button>
+    <button onclick="alert('Working')">Alert Message</button>
+    <button onmouseover="hover()" onmouseleave="leave()">Hover me</button>
+    <br>
+    <h4 id="a"></h4>
+    <script>
+        function sample(){
+            document.body.style.backgroundColor="orange"
+            document.getElementById('a').innerText="This is a event handler by using onclick event handler"
+        }
+        function hover(){
+            document.body.style.backgroundColor ="red"
+            
+        }
+        function leave(){
+            document.body.style.backgroundColor= "white"
+            document.getElementById('a').innerText=""
+        }
+        function dbclick(){
+            
+        }
+    </script>
+    
+</body>
+</html>

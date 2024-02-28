@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Task</title>
+</head>
+<body>
+    <script>
+        const bdy = document.body
+        const NewSpan = document.createElement("span")
+        bdy.appendChild(NewSpan)
+        NewSpan.setAttribute("id","dist")
+        NewSpan.innerText="Count :"
+        NewSpan.style.display="block"
+        NewSpan.style.marginBottom="20px"
+        // creating a button element    
+        const NewBtn = document.createElement("button")
+        bdy.appendChild(NewBtn)
+        NewBtn.innerText="Increament"
+        NewBtn.style.marginRight="10px"
+        const NewBtn1 = document.createElement("button")
+        bdy.appendChild(NewBtn1)
+        NewBtn1.innerText="Decreament"
+        NewBtn.addEventListener("click",inc)
+        var x = 0
+        function inc(){
+            x=x+1
+            NewSpan.innerText = "Count :"+x
+        }
+        NewBtn1.addEventListener("click", dec)
+        function dec(){
+            x = x-1
+            NewSpan.innerText = "Count :"+x
+        }
+        
+    </script>
+
+    
+</body>
+</html>

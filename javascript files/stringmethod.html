@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <script>
+        let str = "Drive ready"
+        let str1 = "   Mern Batch"
+        let str2 = "New Batch"
+        let str3 = "BATCH"
+        function strmethod(str_name){
+            document.write("<b>"+str_name+"</b><br>")
+        }
+        // original string
+        strmethod("Original String: "+str)
+        // length
+        strmethod("Original String Length: "+str.length)
+
+        //charAt is used to find the value in the particular location by using the index number
+
+        strmethod("charAt: "+str.charAt(4))//e
+        
+        //indexOf is used to find the index value by using the character value it checks from the left side so the r(1) is the printed on browser if you want to print r in  ready u have to use lastIndexOf
+        strmethod("indexOf: "+str.indexOf('r'))//1
+        //lastIndexOf is used to find the index value at last 
+        strmethod("lastIndexof: "+str.lastIndexOf('r'))//6
+
+        //Lowercase
+        strmethod("Lowercase: "+str3.toLowerCase())
+
+        //uppercase
+        strmethod("Uppercase: "+str3.toUpperCase())
+
+        //Concat
+        strmethod("Concating of str+str1: "+str.concat(str1))
+        strmethod("concating of str+str1+str2: "+str.concat(str1, str2))
+
+        //trim- to remove the whitespaces
+        strmethod("original str1:"+str1)
+        strmethod("trimming:"+str1.trim())
+
+        //split is used to split the string into array by indicating of delimiters like(-,_,etc)
+        let str4 = "Technical-Hub"
+        strmethod("splitting of string:"+str.split(""))
+        strmethod("splitting: "+str1.split(" "))
+        strmethod("splitting :"+str4.split("-"))
+
+        //startswith
+        strmethod("Starts with : " +str3.startsWith('B'))//Batch -true
+        strmethod("Ends With : "+str.endsWith('h'))//Drive Ready -false
+
+        //slice
+        strmethod("slicing method of str:"+str.slice(1,-8))
+
+        //substring
+        strmethod("Substring method of str:"+str.substring(1,7))
+
+        //substr
+        strmethod("substr method of str:"+str.substr(0,9))
+
+        //repeat
+        strmethod("repeating: "+str3.repeat(2))
+        
+        //replace
+        strmethod("replacing :"+str1.replace("Mern" , "ready"))
+
+        //includes
+        if(str.includes("Ready")== true){
+                  document.write("true")
+        }else{
+            document.write("false")
+        }
+
+    </script>
+    
+</body>
+</html>

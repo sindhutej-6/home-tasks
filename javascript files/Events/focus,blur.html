@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus,blur in js</title>
+</head>
+<body>
+<form >
+    <label for="focus">Focus</label>
+    <input type="text"  onfocus="sample(this,'red')">
+    <label for="blur">Blur</label>
+    <input type="text" onblur="sample(this,'orange')">
+    <label for="focus">blur1</label>
+    <input type="text" onblur="sample(this,'green')">
+    <label for="focus">onselect</label>
+    <input type="text" onselect="select(this.value)">
+    <p id="a"></p>
+</form>
+    <script type="text/javascript">
+        function sample(e,color_value){
+            e.style.backgroundColor = color_value 
+        }
+        const x = document.getElementById("a")
+        function select(value){
+            console.log(value)
+            // x.innerText="You selected text is "+value
+        }
+        
+    </script>
+    
+</body>
+</html>
